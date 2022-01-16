@@ -24,12 +24,12 @@ Phone: +1 (608) 977-3452 / +91 9850958155 <br />
 *Working as an undergraduate researcher in SBEL. Focussing on the State-Estimation side of things including the implementation of complex mathematical algorithms like the Kalman Filter and the Extended Kalman Filter.**
 
 ### ***WISCONSIN AUTONOMOUS August 2020 - Present***
-***State-Estimation Lead** <br />
+***State-Estimation Lead*** <br />
 *-Responsible for the localisation of the vehicle using sensors like IMU and GPS and implementing algorithms like the Kalman Filter.* <br/>
-*-Previously worked as a member of the Simulations subteam. Was responsible for testing the vehicle in a simulation environment called PyChrono. 
+*-Previously worked as a member of the Simulations subteam. Was responsible for testing the vehicle in a simulation environment called PyChrono.*
 
 ### ***INFORMATICS SKUNKWORKS May 2021 - Dec 2021***
-***Undergraduate Researcher***
+***Undergraduate Researcher*** <br />
 *-Worked on a Machine Learning (ML) model in Python using Schnet and kernels like Nyostroem and FCHL to predict chemical properties like atomization energies of various atoms.* <br />
 *-Created a ML model in Jupyter Notebooks to predict Parkinson's disease in humans.*
 
