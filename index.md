@@ -8,13 +8,14 @@ Phone: +1 (608) 977-3452 / +91 9850958155 <br />
 
 ## **EDUCATION** <br />
 
-### **UNIVERSITY OF WISCONSIN-MADISON** 
+### ***UNIVERSITY OF WISCONSIN-MADISON**
 BS ~ Computer Science and Data Science (September 2020 - May 2024)
 GPA - 3.9
 
-### **NATH VALLEY SCHOOL**
+### ***NATH VALLEY SCHOOL**
 Grade 1 to Grade 12
 Grade 12 - 92.4%
+
 
 
 
