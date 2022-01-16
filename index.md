@@ -1,11 +1,4 @@
 
-## **CONTACT DETAILS** <br />
-
-Email: ishaanamahajan@gmail.com  <br />
-Phone: +1 (608) 977-3452 / +91 9850958155 <br />
-
-
-
 ## **EDUCATION** <br />
 
 ### ***UNIVERSITY OF WISCONSIN-MADISON***
@@ -35,8 +28,15 @@ Phone: +1 (608) 977-3452 / +91 9850958155 <br />
 *-Worked on a Machine Learning (ML) model in Python using Schnet and kernels like Nyostroem and FCHL to predict chemical properties like atomization energies of various atoms.* <br />
 *-Created a ML model in Jupyter Notebooks to predict Parkinson's disease in humans.*
 
+## **PROJECTS** <br />
+***Peeping In*** <br />
+*Created an iOS app called 'Peeping In' to help people fight with mental illnesses such as anxiety and depression by providing short-term solutions in the form of motivational quotes.* <br />
+
+***Quiz Master*** <br />
+*Created an iOS app called 'Quiz Master' which shows its users 10 random True/False questions out of a total of 65 questions.* <br />
 
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## **Contact** <br />
+Email: ishaanamahajan@gmail.com  <br />
+Phone: +1 (608) 977-3452 / +91 9850958155 <br />
