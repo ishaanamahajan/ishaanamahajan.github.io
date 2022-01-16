@@ -9,23 +9,31 @@ Phone: +1 (608) 977-3452 / +91 9850958155 <br />
 ## **EDUCATION** <br />
 
 ### ***UNIVERSITY OF WISCONSIN-MADISON***
-*BS Computer Science and Data Science (September 2020 - May 2024)*
+*BS Computer Science and Data Science (September 2020 - May 2024)* <br />
 *GPA - 3.9*
 
 ### ***NATH VALLEY SCHOOL***
-*Grade 1 to Grade 12*
+*Grade 1 to Grade 12* <br />
 *Grade 12 - 92.4%*
 
 
+## **WORK** <br />
+
+### ***SIMULATION BASED ENGINEERING LAB (SBEL) January 2022 - Present*** 
+***Undergraduate Researcher***
+*Working as an undergraduate researcher in SBEL. Focussing on the State-Estimation side of things including the implementation of complex mathematical algorithms like the Kalman Filter and the Extended Kalman Filter.**
+
+### ***WISCONSIN AUTONOMOUS August 2020 - Present***
+***State-Estimation Lead** <br />
+*-Responsible for the localisation of the vehicle using sensors like IMU and GPS and implementing algorithms like the Kalman Filter.* <br/>
+*-Previously worked as a member of the Simulations subteam. Was responsible for testing the vehicle in a simulation environment called PyChrono. 
+
+### ***INFORMATICS SKUNKWORKS May 2021 - Dec 2021***
+***Undergraduate Researcher***
+*-Worked on a Machine Learning (ML) model in Python using Schnet and kernels like Nyostroem and FCHL to predict chemical properties like atomization energies of various atoms.* <br />
+*-Created a ML model in Jupyter Notebooks to predict Parkinson's disease in humans.*
 
 
-
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ishaanamahajan/ishaanamahajan.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
