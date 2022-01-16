@@ -1,32 +1,24 @@
-```markdown
+
 ### **CONTACT DETAILS** <br />
 
 Email: ishaanamahajan@gmail.com  <br />
 Phone: +1 (608) 977-3452 / +91 9850958155 <br />
-```
 
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### **EDUCATION** <br />
 
-```markdown
-Syntax highlighted code block
+## **UNIVERSITY OF WISCONSIN-MADISON** <br />
+BS ~ Computer Science and Data Science (September 2020 - May 2024)
+GPA - 3.9
 
-# Header 1
-## Header 2
-### Header 3
+## **NATH VALLEY SCHOOL** <br />
+Grade 1 to Grade 12
+Grade 12 - 92.4%
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
