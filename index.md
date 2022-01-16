@@ -20,8 +20,10 @@ Phone: +1 (608) 977-3452 / +91 9850958155 <br />
 ## **WORK** <br />
 
 ### ***SIMULATION BASED ENGINEERING LAB (SBEL) January 2022 - Present*** 
-***Undergraduate Researcher***
-*Working as an undergraduate researcher in SBEL. Focussing on the State-Estimation side of things including the implementation of complex mathematical algorithms like the Kalman Filter and the Extended Kalman Filter.**
+***Undergraduate Researcher*** <br />
+*-Working on the State-Estimation (localisation) side of things including the implementation of complex mathematical algorithms like the Kalman Filter and the Extended Kalman Filter.* <br />
+*-Researching and learning about ways to make simulation changes reflect in a real world environment in an autonomous vehicle using a simulations framewrok called Project Chrono.*
+
 
 ### ***WISCONSIN AUTONOMOUS August 2020 - Present***
 ***State-Estimation Lead*** <br />
