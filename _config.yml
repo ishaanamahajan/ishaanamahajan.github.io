@@ -1,5 +1,5 @@
 markdown: kramdown
 layout: default
-remote_theme: pages-themes/modernist@v0.2.0
+remote_theme: pages-themes/time-machine@v0.2.0
 title: ISHAAN MAHAJAN
 description: I am an undergraduate student at the University of Wisconsin-Madison studying Computer Science and Data Science, along with a certificate in Economic Analytics. I am deeply interested in the applications of autonomous technology using machine learning, and software development and tackling complex real-world using the same.  
