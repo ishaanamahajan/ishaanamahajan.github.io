@@ -1,7 +1,9 @@
-**CONTACT DETAILS** <br />
+```markdown
+### **CONTACT DETAILS** <br />
 
 Email: ishaanamahajan@gmail.com  <br />
 Phone: +1 (608) 977-3452 / +91 9850958155 <br />
+```
 
 
 ### Markdown
