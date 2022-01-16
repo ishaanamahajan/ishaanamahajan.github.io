@@ -1,18 +1,18 @@
 
-### **CONTACT DETAILS** <br />
+## **CONTACT DETAILS** <br />
 
 Email: ishaanamahajan@gmail.com  <br />
 Phone: +1 (608) 977-3452 / +91 9850958155 <br />
 
 
 
-### **EDUCATION** <br />
+## **EDUCATION** <br />
 
-## **UNIVERSITY OF WISCONSIN-MADISON** <br />
+### **UNIVERSITY OF WISCONSIN-MADISON** 
 BS ~ Computer Science and Data Science (September 2020 - May 2024)
 GPA - 3.9
 
-## **NATH VALLEY SCHOOL** <br />
+### **NATH VALLEY SCHOOL**
 Grade 1 to Grade 12
 Grade 12 - 92.4%
 
