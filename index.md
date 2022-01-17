@@ -1,3 +1,4 @@
+! [Image] (/assets/images/Ishaan_Picture.jpeg) 
 
 ## **EDUCATION** <br />
 
