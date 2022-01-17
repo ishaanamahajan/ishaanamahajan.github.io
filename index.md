@@ -19,7 +19,7 @@
 ### ***SIMULATION BASED ENGINEERING LAB (SBEL) (January 2022 - Present)*** 
 ***Undergraduate Researcher*** <br />
 *-Working on the State-Estimation (localisation) side of things including the implementation of complex mathematical algorithms like the Kalman Filter and the Extended Kalman Filter.* <br />
-*-Researching and learning about ways to make simulation changes reflect in a real world environment in an autonomous vehicle using a simulations framewrok called Project Chrono.*
+*-Researching and learning about ways to make simulation changes reflect in a real world environment in an autonomous vehicle using a simulations framework called Project Chrono.*
 
 
 ### ***WISCONSIN AUTONOMOUS (August 2020 - Present)***
