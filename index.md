@@ -1,4 +1,6 @@
 
+![This is an image] (https://github.com/ishaanamahajan/ishaanamahajan.github.io/blob/gh-pages/root/assets/Ishaan_Picture.jpeg)
+
 ## **EDUCATION** <br />
 
 ### ***UNIVERSITY OF WISCONSIN-MADISON***
