@@ -3,3 +3,5 @@ layout: default
 remote_theme: pages-themes/dinky
 title: ISHAAN MAHAJAN
 description: A personal website
+
+theme: jekyll-theme-slate
