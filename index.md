@@ -13,19 +13,19 @@ GPA - 3.9
 
 ### **NATH VALLEY SCHOOL**
 Grade 1 to Grade 12 <br />
-Grade 10 - 95.6%
+Grade 10 - 95.6% <br />
 Grade 12 - 92.4%
 
 
 ## **WORK** <br />
 
 ### **SIMULATION BASED ENGINEERING LAB (SBEL) (January 2022 - Present)**
-***Undergraduate Researcher*** <br />
+**Undergraduate Researcher** <br />
 -Working on the State-Estimation (localisation) side of things including the implementation of complex mathematical algorithms like the Kalman Filter and the Extended Kalman Filter.* <br />
 -Researching and learning about ways to make simulation changes reflect in a real world environment in an autonomous vehicle using a simulations framework called Project Chrono.*
 
 
-### ***WISCONSIN AUTONOMOUS (August 2020 - Present)***
+### **WISCONSIN AUTONOMOUS (August 2020 - Present)**
 **State-Estimation Lead** <br />
 -Responsible for the localisation of the vehicle using sensors like IMU and GPS and implementing algorithms like the Kalman Filter. <br/>
 -Previously worked as a member of the Simulations subteam. Was responsible for testing the vehicle in a simulation environment called PyChrono.
