@@ -1,6 +1,6 @@
 
 layout: default
-remote_theme: pages-themes/dinky
+remote_theme: pages-themes/minimal@v0.2.0
 title: ISHAAN MAHAJAN
 description: A personal website
 
