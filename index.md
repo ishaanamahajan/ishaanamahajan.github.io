@@ -3,7 +3,6 @@
 ## **ABOUT ME** <br />
 I am an undergraduate student at the University of Wisconsin-Madison studying Computer Science and Data Science, along with a certificate in Economic Analytics. I am deeply interested in the applications of autonomous technology using machine learning, and software development and tackling complex real-world using the same.
 
-![Image](https://raw.githubusercontent.com/ishaanamahajan/ishaanamahajan.github.io/main/Ishaan.png) 
 
 ## **EDUCATION** <br />
 
