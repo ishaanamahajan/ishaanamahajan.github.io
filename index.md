@@ -4,6 +4,11 @@
 I am an undergraduate student at the University of Wisconsin-Madison studying Computer Science and Data Science, along with a certificate in Economic Analytics. I am deeply interested in the applications of autonomous technology using machine learning, and software development and tackling complex real-world using the same.
 
 
+<p align="left">
+  <img src="https://raw.githubusercontent.com/ishaanamahajan/ishaanamahajan.github.io/main/PersonalImage.png" />
+</p>
+
+
 ## **EDUCATION** <br />
 
 ### **UNIVERSITY OF WISCONSIN-MADISON**
@@ -20,8 +25,8 @@ Grade 12 - 92.4%
 
 ### **SIMULATION BASED ENGINEERING LAB (SBEL) (January 2022 - Present)**
 **Undergraduate Researcher** <br />
--Working on the State-Estimation (localisation) side of things including the implementation of complex mathematical algorithms like the Kalman Filter and the Extended Kalman Filter.* <br />
--Researching and learning about ways to make simulation changes reflect in a real world environment in an autonomous vehicle using a simulations framework called Project Chrono.*
+-Working on the State-Estimation (localisation) side of things including the implementation of complex mathematical algorithms like the Kalman Filter and the Extended Kalman Filter. <br />
+-Researching and learning about ways to make simulation changes reflect in a real world environment in an autonomous vehicle using a simulations framework called Project Chrono.
 
 
 ### **WISCONSIN AUTONOMOUS (August 2020 - Present)**
