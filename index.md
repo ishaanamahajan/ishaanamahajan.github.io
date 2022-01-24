@@ -5,7 +5,7 @@ I am an undergraduate student at the University of Wisconsin-Madison studying Co
 
 
 <p>
-  <img src="https://github.com/ishaanamahajan/ishaanamahajan.github.io/blob/main/PersonalImage.png" />
+  <img src="https://github.com/ishaanamahajan/ishaanamahajan.github.io/blob/main/PersonalImage.png">
 </p>
 
 
