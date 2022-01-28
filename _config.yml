@@ -4,7 +4,3 @@ remote_theme: pages-themes/minimal@v0.2.0
 title: ISHAAN MAHAJAN
 description: A personal website
 
-url: https://raw.githubusercontent.com/ishaanamahajan/ishaanamahajan.github.io/main/PersonalImage.png
-<img src="https://raw.githubusercontent.com/ishaanamahajan/ishaanamahajan.github.io/main/PersonalImage.png" alt="hi" class="inline"/>
-
-
