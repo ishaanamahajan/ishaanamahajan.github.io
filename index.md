@@ -20,3 +20,35 @@
 </div>
 
 
+var tabButtons = document.querySelectorAll(".tab-button");
+var tabContents = document.querySelectorAll(".tab-content");
+
+function handleTabClick(event) {
+  var tabButton = event.target;
+  var tabContentId = tabButton.getAttribute("id").replace("tab-button-", "tab-content-");
+  var tabContent = document.getElementById(tabContentId);
+
+  // hide all tab contents
+  tabContents.forEach(function(tc) {
+    tc.style.display = "none";
+  });
+
+  // deactivate all tab buttons
+  tabButtons.forEach(function(tb) {
+    tb.classList.remove("active");
+  });
+
+  // activate clicked tab button
+  tabButton.classList.add("active");
+
+  // show clicked tab content
+  tabContent.style.display = "block";
+}
+
+tabButtons.forEach(function(tb) {
+  tb.addEventListener("click", handleTabClick);
+});
+
+// show the first tab content by default
+tabContents[0].style.display = "block";
+tabButtons[0].classList.add("active");
