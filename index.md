@@ -2,32 +2,79 @@
 
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  </head>
-  <body>
-    <div class="container">
-      <ul class="nav nav-tabs">
-        <li class="nav-item">
-          <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#education">Education</a>
-        </li>
-      </ul>
-  
-      <div class="tab-content">
-        <div id="home" class="tab-pane active">
-          <h3>Home</h3>
-          <p>Content for the home tab goes here.</p>
-        </div>
-        <div id="about" class="tab-pane">
-          <h3>About</h3>
-          <p>Content for the about tab goes here.</p>
-        </div>
-        <div id="education" class="tab-pane">
-          <h3>Education</h3>
-          <p>Content for the education tab goes here.</p
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#education">Education</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#experience">Work Experience</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#publications">Publications</a>
+      </li>
+    </ul>
+
+    <div class="tab-content">
+      <div id="home" class="tab-pane active">
+        <h3>Home</h3>
+        <p>Welcome to my personal website! Here you can learn more about my education, work experience, and publications.</p>
+      </div>
+      <div id="about" class="tab-pane">
+        <h3>About</h3>
+        <p>I am Ishaan Mahajan, a dedicated and driven individual passionate about robotics, autonomous systems, and software development.</p>
+      </div>
+      <div id="education" class="tab-pane">
+        <h3>Education</h3>
+        <p>
+          University of Wisconsin-Madison<br>
+          Bachelor of Science - Computer Science and Data Science; GPA: 3.847
+        </p>
+      </div>
+      <div id="experience" class="tab-pane">
+        <h3>Work Experience</h3>
+        <p>
+          Simulation Based Engineering Laboratory, Madison, WI<br>
+          Undergraduate Researcher, January 2022 - Present<br>
+          - Assisted in creating an IMU/GPS sensor in Project Chrono... (Your detailed experience goes here)
+        </p>
+        <p>
+          National University of Singapore, Singapore, Singapore<br>
+          Robotics Research Intern, May 2022 - July 2022<br>
+          - Worked in the Mechatronics and Simulation Lab... (Your detailed experience goes here)
+        </p>
+        <p>
+          Wisconsin Autonomous, Madison, WI<br>
+          Localization Lead, August 2020 - Present<br>
+          - Leading 10 undergraduates to compete against other universities... (Your detailed experience goes here)
+        </p>
+        <p>
+          University of Wisconsin-Madison, Madison, WI<br>
+          Undergraduate Teaching Assistant, September 2022 - December 2022<br>
+          - Assisting in the functioning and development... (Your detailed experience goes here)
+        </p>
+      </div>
+      <div id="publications" class="tab-pane">
+        <h3>Publications</h3>
+        <p>
+          A software toolkit and hardware platform for investigating... (Your publication details go here)
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
