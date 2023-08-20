@@ -46,28 +46,38 @@
         <p>
           Simulation Based Engineering Laboratory, Madison, WI<br>
           Undergraduate Researcher, January 2022 - Present<br>
-          - Assisted in creating an IMU/GPS sensor in Project Chrono... (Your detailed experience goes here)
+          - Assisted in creating an IMU/GPS sensor in Project Chrono
+          - Built a miniature autonomous car to test Lidar, IMU, and GPS sensors, and implement perception and path-planning algorithms.
+          - Working with the ROS integration in Chrono to further enhance autonomy and conduct experiments.
         </p>
         <p>
           National University of Singapore, Singapore, Singapore<br>
           Robotics Research Intern, May 2022 - July 2022<br>
-          - Worked in the Mechatronics and Simulation Lab... (Your detailed experience goes here)
+          - Worked in the Mechatronics and Simulation Lab and researched and developed path-planning algorithms on a Locobot WX250s.
+          - Created a docker container and embedded it with the Locobot packages to create a uniform system for all users.
+          - Implemented NLP to make the robot listen to human voice command and perform actions through ROS topics.
+
         </p>
         <p>
           Wisconsin Autonomous, Madison, WI<br>
           Localization Lead, August 2020 - Present<br>
-          - Leading 10 undergraduates to compete against other universities... (Your detailed experience goes here)
+          - Leading 10 undergraduates to compete against other universities in international competitions like EV Grand Prix and Autodrive Challenge.
+          - Created an IMU/GPS ROS node in the autonomous vehicle software stack and successfully localized the car with filtered velocity and position information using a kalman filter.
+          - Actively developing the present software framework to be used by all sub-teams for the development and working of our autonomous vehicle, and implementing localization algorithms.
         </p>
         <p>
           University of Wisconsin-Madison, Madison, WI<br>
           Undergraduate Teaching Assistant, September 2022 - December 2022<br>
-          - Assisting in the functioning and development... (Your detailed experience goes here)
+          - Assisting in the functioning and development of the ’Object Oriented Programming in Java’ course.
+          - Conducting office hours for over 500+ students, helping them solve their doubts.
         </p>
       </div>
       <div id="publications" class="tab-pane">
         <h3>Publications</h3>
         <p>
-          A software toolkit and hardware platform for investigating... (Your publication details go here)
+         A software toolkit and hardware platform for investigating and comparing robot autonomy algorithms in
+        simulation and reality. Elmquist, A., Young, A., Mahajan, I., Fahey, K., Dashora, A., Ashokkumar, S., ... (2022) arXiv preprint arXiv:2206.06537
+
         </p>
       </div>
     </div>
