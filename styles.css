@@ -5,7 +5,7 @@ body {
 }
 
 .intro {
-    background: url('background-image.jpg') no-repeat center center;
+    background: url('background-image.jpeg') no-repeat center center;
     background-size: cover;
     height: 100vh;
     display: flex;
