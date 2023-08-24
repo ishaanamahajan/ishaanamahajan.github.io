@@ -2,22 +2,14 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-}
-
-.intro {
-    background: url('background-image.jpeg') no-repeat center center;
-    background-size: cover;
-    height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
 }
 
 .navbar {
     background-color: #333;
     text-align: center;
     padding: 1rem;
+    flex-basis: 20%; /* Adjust the width of the navigation column */
 }
 
 .navbar ul {
@@ -27,18 +19,26 @@ body {
 }
 
 .navbar ul li {
-    display: inline;
-    margin: 0 1rem;
+    margin: 0 0 0.5rem; /* Add some space between navigation items */
 }
 
 .navbar ul li a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
+    display: block;
 }
 
 .section {
     padding: 2rem;
+    flex-basis: 80%; /* Adjust the width of the content column */
+    background-color: #f4f4f4; /* Background color for content */
+}
+
+.section h2 {
+    color: #333; /* Heading color */
+    margin-bottom: 1rem; /* Add some space below headings */
 }
 
 /* Add more styling as needed */
+
