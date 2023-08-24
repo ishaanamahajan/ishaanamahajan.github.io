@@ -1,93 +1,6 @@
+
+
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-}
-
-.header {
-    background: url('background-image.jpeg') no-repeat center center;
-    background-size: cover;
-    text-align: center;
-    padding: 6rem 0;
-    color: #fff;
-}
-
-.header-content h1 {
-    margin: 0;
-}
-
-.container {
-    display: flex;
-    gap: 2rem;
-    padding: 2rem;
-}
-
-.navbar {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-    width: 20%;
-    min-height: 100vh;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-.navbar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.navbar ul li {
-    margin-bottom: 1rem;
-}
-
-.navbar ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    display: block;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    width: 80%;
-}
-
-.section {
-    display: flex;
-    gap: 2rem;
-    padding: 1.5rem;
-    border-radius: 10px;
-}
-
-.section-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-    width: 30%;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-
-.section-content {
-    background-color: #f4f4f4;
-    padding: 1rem;
-    width: 70%;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-/* Add more styling as needed */
-
-
-
-/* body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -129,4 +42,4 @@ body {
 .section {
     padding: 2rem;
 }
- */
+
