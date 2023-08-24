@@ -6,7 +6,12 @@ body, h1, h2, h3, p {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Adjust the width of the columns */
+    gap: 2rem; /* Add some space between columns */
 }
 
 .header {
@@ -15,17 +20,13 @@ body {
     text-align: center;
     padding: 6rem 0;
     color: #fff;
+    grid-column: span 2; /* Make the header span both columns */
 }
 
 .navbar {
     background-color: #333;
     color: #fff;
-    text-align: left;
     padding: 1rem;
-    position: fixed;
-    width: 20%; /* Adjust the width of the navigation column */
-    height: 100%; /* Make the navigation column full height */
-    overflow: auto; /* Enable scrolling for long navigation */
 }
 
 .navbar ul {
@@ -46,7 +47,6 @@ body {
 }
 
 .content {
-    margin-left: 25%; /* Adjust the width based on the navigation column */
     padding: 2rem;
 }
 
@@ -56,4 +56,3 @@ body {
 }
 
 /* Add more styling as needed */
-
