@@ -1,25 +1,41 @@
-body {
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
+}
+
+body {
     font-family: Arial, sans-serif;
-    display: flex;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background: url('background-image.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 6rem 0;
+    color: #fff;
 }
 
 .navbar {
     background-color: #333;
-    text-align: center;
+    color: #fff;
+    text-align: left;
     padding: 1rem;
-    flex-basis: 20%; /* Adjust the width of the navigation column */
+    position: fixed;
+    width: 20%; /* Adjust the width of the navigation column */
+    height: 100%; /* Make the navigation column full height */
+    overflow: auto; /* Enable scrolling for long navigation */
 }
 
 .navbar ul {
     list-style: none;
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
 .navbar ul li {
-    margin: 0 0 0.5rem; /* Add some space between navigation items */
+    margin-bottom: 1rem;
 }
 
 .navbar ul li a {
@@ -29,15 +45,14 @@ body {
     display: block;
 }
 
-.section {
+.content {
+    margin-left: 25%; /* Adjust the width based on the navigation column */
     padding: 2rem;
-    flex-basis: 80%; /* Adjust the width of the content column */
-    background-color: #f4f4f4; /* Background color for content */
 }
 
-.section h2 {
-    color: #333; /* Heading color */
-    margin-bottom: 1rem; /* Add some space below headings */
+.content h2 {
+    color: #333;
+    margin-bottom: 1rem;
 }
 
 /* Add more styling as needed */
