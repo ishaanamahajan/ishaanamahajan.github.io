@@ -1,17 +1,8 @@
-/* Reset some default browser styles */
-body, h1, h2, h3, p {
+body {
     margin: 0;
     padding: 0;
-}
-
-body {
     font-family: Arial, sans-serif;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: 1fr 2fr; /* Adjust the width of the columns */
-    gap: 2rem; /* Add some space between columns */
+    background-color: #f4f4f4;
 }
 
 .header {
@@ -20,13 +11,23 @@ body {
     text-align: center;
     padding: 6rem 0;
     color: #fff;
-    grid-column: span 2; /* Make the header span both columns */
+}
+
+.header-content h1 {
+    margin: 0;
+}
+
+.container {
+    display: flex;
 }
 
 .navbar {
     background-color: #333;
     color: #fff;
     padding: 1rem;
+    width: 20%; /* Adjust the width of the navigation column */
+    min-height: 100vh; /* Ensure the navigation column is at least full height */
+    box-sizing: border-box;
 }
 
 .navbar ul {
@@ -48,6 +49,8 @@ body {
 
 .content {
     padding: 2rem;
+    width: 80%; /* Adjust the width of the content column */
+    box-sizing: border-box;
 }
 
 .content h2 {
