@@ -105,15 +105,20 @@ body {
 
 /* Updated experience styles */
 .experience {
-    display: flex;
+    /* display: flex;
     flex-direction: column; /* Display organization name above the position */
-    align-items: flex-start;
+    /*align-items: flex-start; */
     margin-bottom: 1.5rem;
 }
 
 .experience h3 {
     color: #333; /* Dark gray for organization name */
     margin-bottom: 0.5rem; /* Add space between organization and position */
+}
+
+.experience p.position {
+    color: #666; /* Light gray for position and date */
+    margin: 0; /* Remove default margin */
 }
 
 .experience p.date {
