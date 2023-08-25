@@ -26,6 +26,11 @@ body {
     z-index: 100;
 }
 
+.experience {
+    margin-bottom: 1rem; /* Add some space between each experience */
+}
+
+
 /* ... (other navbar styles) ... */
 
 /* Updated section styles */
@@ -89,7 +94,7 @@ body {
 }
 
 .about-left img {
-    max-width: 150px; /* Adjust the size as needed */
+    max-width: 30px; /* Adjust the size as needed */
     border-radius: 50%; /* Make the photo round */
 }
 
@@ -116,6 +121,8 @@ body {
     margin-top: 1rem; /* Add spacing between the heading and icon */
     margin-left: auto;
     margin-right: auto;
+    text-align: center; /* Center the icon horizontally */
 }
+
 
 /* ... (other styles) ... */
