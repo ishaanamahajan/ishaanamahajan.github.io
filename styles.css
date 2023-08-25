@@ -1,78 +1,70 @@
-/* 
-
+/* Reset default margin and padding */
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
 }
 
-.intro {
-    background: url('image.jpeg') no-repeat center center;
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-}
-
+/* Navbar styles */
 .navbar {
     background-color: #333;
     text-align: center;
-    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
 }
 
-.navbar ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
+/* ... (other navbar styles) ... */
 
-.navbar ul li {
-    display: inline;
-    margin: 0 1rem;
-}
-
-.navbar ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-}
-
+/* Updated section styles */
 .section {
-    padding: 2rem;
-}
- */
-
- /* Reset default margin and padding */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
-
-/* Header with background image */
-.intro {
-    background: url('image.jpeg') no-repeat center center;
-    background-size: cover;
-    height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #f0f5ff; /* Light blue background color */
 }
 
-/* ... (other styles) ... */
+/* Section header text color */
+.section h2 {
+    color: #007bff; /* Blue color for section headers */
+}
 
-/* Updated styles for About Me section */
-.about-me-section {
+/* New styles for About Me and Contact sections */
+.about-me-section,
+.contact-section {
     background-color: #f5f5f5; /* Light grey background color */
+    color: white; /* White text color */
     padding: 2rem;
-    margin: 2rem 0; /* Add some space around the section */
+    margin: 2rem 0; /* Add some space around these sections */
     border-radius: 10px; /* Add rounded corners */
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.contact-heading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.email-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+}
+
+.email-icon {
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
 }
 
 .about-content {
@@ -101,153 +93,3 @@ body {
 }
 
 /* ... (other styles) ... */
-
-
-/* Navbar styles */
-.navbar {
-    background-color: #333;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 100; /* Ensure the navbar is on top of other content */
-}
-
-.navbar ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.navbar ul li {
-    display: inline;
-    margin: 0 1rem;
-}
-
-.navbar ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-}
-
-/* Updated section styles */
-.section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2rem;
-}
-
-.section h2 {
-    color: #007bff; /* Blue color for section headers */
-}
-
-/* New styles for section content container */
-.section-content-container {
-    flex: 1;
-    padding-right: 2rem;
-}
-
-/* Updated experience styles */
-.experience {
-    display: flex;
-    flex-direction: column; /* Display organization name above the position */
-    align-items: flex-start;
-    margin-bottom: 1.5rem;
-}
-
-.experience h3 {
-    color: #333; /* Dark gray for organization name */
-    margin-bottom: 0.5rem; /* Add space between organization and position */
-}
-
-.experience p.position {
-    color: #666; /* Light gray for position and date */
-    margin: 0; /* Remove default margin */
-}
-
-.experience p.date {
-    color: #666; /* Light gray for date */
-}
-
-/* Footer styles */
-.contact {
-    text-align: center;
-    padding: 2rem;
-}
-/* Updated section styles */
-.section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2rem;
-    background-color: #f0f5ff; /* Light blue background color */
-}
-
-/* Section header text color */
-.section h2 {
-    color: #007bff; /* Blue color for section headers */
-}
-
-/* New styles for About Me and Contact sections */
-
-
-
-
-/* Email link styles */
-.email-link {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.email-link:hover {
-    text-decoration: underline;
-}
-
-.email-icon {
-    margin-right: 0.5rem;
-    font-size: 1.5rem;
-}
-
-.contact-section {
-    text-align: center;
-    background-color: #f5f5f5; /* Light grey background color */
-    color: #333; /* Dark grey text color */
-    padding: 2rem;
-    margin: 2rem 0; /* Add some space around the section */
-    border-radius: 10px; /* Add rounded corners */
-}
-
-.contact-heading {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
-
-/* Style for email icon */
-.email-icon {
-    font-size: 2rem;
-}
-
-
-
-/* Basic responsive styling */
-@media screen and (max-width: 768px) {
-    /* Adjust layout for smaller screens if needed */
-    .section {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .section-content-container {
-        padding: 0;
-        margin-top: 1rem; /* Add some space between header and content on small screens */
-    }
-    .experience {
-        flex-direction: column;
-        align-items: flex-start;
-        margin-bottom: 1rem;
-    }
-}
