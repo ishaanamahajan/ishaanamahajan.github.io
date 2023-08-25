@@ -148,6 +148,40 @@ body {
     color: #007bff; /* Blue color for section headers */
 }
 
+/* New styles for About Me and Contact sections */
+.about-me-section,
+.contact-section {
+    background-color: black; /* Black background color */
+    color: white; /* White text color */
+    padding: 2rem;
+    margin: 2rem 0; /* Add some space around these sections */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+/* Center align text in Contact section */
+.contact-section {
+    text-align: center;
+}
+
+/* Email link styles */
+.email-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+}
+
+.email-icon {
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+}
+
 
 /* Basic responsive styling */
 @media screen and (max-width: 768px) {
