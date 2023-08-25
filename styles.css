@@ -17,7 +17,7 @@ body {
 
 .intro h1 {
     font-size: 7rem; /* Adjust the value as needed */
-    margin-top: 0.5rem;
+    margin-top: 0.9rem;
 }
 
 .social-icons {
@@ -32,7 +32,7 @@ body {
 }
 
 .social-icons img{
-    max-width: 70px; /* Adjust the size as needed */
+    max-width: 50px; /* Adjust the size as needed */
     border-radius: 50%; /* Make the photo round */
 }
 
@@ -53,7 +53,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex; /* Display the list items horizontally */
-    /*justify-content: space-around; /* Distribute items evenly along the navbar */
+    justify-content: space-around; /* Distribute items evenly along the navbar */
 }
 
 .navbar li {
