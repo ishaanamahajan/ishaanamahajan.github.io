@@ -26,6 +26,24 @@ body {
     z-index: 100;
 }
 
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display the list items horizontally */
+    justify-content: space-around; /* Distribute items evenly along the navbar */
+}
+
+.navbar li {
+    display: inline; /* Display list items in a line */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+
 .experience {
     margin-bottom: 1rem; /* Add some space between each experience */
 }
@@ -50,7 +68,7 @@ body {
 /* New styles for About Me and Contact sections */
 .about-me-section,
 .contact-section {
-    background-color: #f5f5f5; /* Light grey background color */
+    background-color: #333; 
     color: white; /* White text color */
     padding: 2rem;
     margin: 2rem 0; /* Add some space around these sections */
@@ -94,7 +112,7 @@ body {
 }
 
 .about-left img {
-    max-width: 30px; /* Adjust the size as needed */
+    max-width: 100px; /* Adjust the size as needed */
     border-radius: 50%; /* Make the photo round */
 }
 
