@@ -15,6 +15,22 @@ body {
     color: #fff;
 }
 
+.intro h1 {
+    font-size: 3rem; /* Adjust the value as needed */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center; /* Center-align the items horizontally */
+    align-items: center;
+    margin-top: 1rem; /* Add some space between the logos and the heading */
+}
+
+.social-icons a {
+    margin: 0 0.5rem; /* Add space between the logos */
+}
+
+
 
 /* Navbar styles */
 .navbar {
@@ -31,7 +47,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex; /* Display the list items horizontally */
-    justify-content: space-around; /* Distribute items evenly along the navbar */
+    /*justify-content: space-around; /* Distribute items evenly along the navbar */
 }
 
 .navbar li {
@@ -143,4 +159,4 @@ body {
 }
 
 
-/* ... (other styles) ... */
+
