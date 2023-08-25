@@ -18,6 +18,8 @@ body {
 .intro h1 {
     font-size: 7rem; /* Adjust the value as needed */
     margin-top: 2.9rem;
+    z-index: 1;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Border-like effect */
 }
 
 .social-icons {
