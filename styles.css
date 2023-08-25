@@ -17,6 +17,7 @@ body {
 
 .intro h1 {
     font-size: 7rem; /* Adjust the value as needed */
+    margin-top: 0.5rem;
 }
 
 .social-icons {
