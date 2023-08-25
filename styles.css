@@ -16,7 +16,7 @@ body {
 }
 
 .intro h1 {
-    font-size: 3rem; /* Adjust the value as needed */
+    font-size: 7rem; /* Adjust the value as needed */
 }
 
 .social-icons {
@@ -28,6 +28,11 @@ body {
 
 .social-icons a {
     margin: 0 0.5rem; /* Add space between the logos */
+}
+
+.social-icons img{
+    max-width: 70px; /* Adjust the size as needed */
+    border-radius: 50%; /* Make the photo round */
 }
 
 
