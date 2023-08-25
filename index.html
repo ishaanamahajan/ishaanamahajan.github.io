@@ -4,14 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Your Name - Personal Website</title>
+    <title>ISHAAN MAHAJAN - Personal Website</title>
 </head>
 <body>
+  
+
+   
     <header id="home" class="intro">
         <div class="intro-content">
-            <h1>Your Name</h1>
+            <h1>ISHAAN MAHAJAN</h1>
+            <div class="social-icons">
+                <a href="https://github.com/ishaanamahajan" target="_blank"><img src="assets/github.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/ishaan-mahajan15/" target="_blank"><img src="assets/linkedin.png" alt=""></a>
+            </div>
         </div>
     </header>
+    
 
     <nav class="navbar">
         <ul>
@@ -21,22 +29,110 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
+    
 
-    <section id="about" class="section">
-        <!-- Your about me content here -->
+    <section id="about" class="section about-me-section">
+        <div class="about-content">
+            <div class="about-left">
+                <img src="assets/css/Ishaan_Picture.jpeg" alt="Your Photo">
+            </div>
+            <div class="about-right">
+                <h2 class="about-heading">About Me</h2>
+                <p>I am an undergraduate student at the University of Wisconsin-Madison studying Computer Science and Data Science. I am passionate about Robotics and Autonomous Systems, and plan to dive deeper into it.</p>
+            </div>
+        </div>
     </section>
+    
+    
+    
 
     <section id="work" class="section">
-        <!-- Your work experience content here -->
+        <h2>Work</h2>
+        <div class="experience">
+            <h3>Undergraduate Researcher - Simulation Based Engineering Lab</h3>
+            <p class="date">January 2022 - Present</p>
+        
+                <ul>
+                    <li>Working with the open source, physics based simulation framework Project Chrono</li>
+                    <li>Working on the continous developments of Vehicle Models in simulation for applications in State-Estimation, Controls, and Machine Learning.</li>
+                    <li>Worked on setting up ground truth state-estimation in reality using a RTK-GPS for centimeter level precision for Control and Vehicle Modelling applications.</li>
+                    <li>Assisted in creating a GPS sensor in Project Chrono to address the sim-to-real gap.</li>
+                </ul>
+            </div>
+    
+            <div class="experience">
+                <h3>AV Infrastructure Lead - Wisonsin Autonomous | SAE General Motors Autodrive Challenge II </h3>
+                <p class="date">September 2020 - Present</p>
+                <ul>
+                    <li>Leading 10 undergraduates against numerous domestic and international universities in the Autodrive Challenge II.</li>
+                    <li>Researching and implementing various perception, mapping, and control  algorithms with a focus on their integration on a Chevy Bolt EUV.</li>
+                    <li>Working on developing state-estimation algorithms like Kalman Filters, and sensor calibration of the IMU and the GPS. </li>
+                </ul>
+            </div>
+
+            <div class="experience">
+                <h3>AI/ML Engineering Intern - Synechron</h3>
+                <p class="date">May 2023 - August 2023</p>
+                <ul>
+                    <li>Researched and implemented various LLMs to understand their working and efficiency. </li>
+                    <li>Worked on creating a NLP Query Engine based off of a LLM to improve the efficiency of operational tasks for various bank clients. </li>
+                    <li>Developed a highly scalable solution for the conversion of unstructured data into a structure form using Computer Vision algorithms like OCR.</li>
+                </ul>
+            </div>
+
+            <div class="experience">
+                <h3>Robotics Research Intern - National Unoversity of Singapore</h3>
+                <p class="date">May 2022 - Jul 2022</p>
+                <ul>
+                    <li>Worked in the Mechatronics and Simulation Lab and researched and developed path-planning algorithms on a Locobot WX250s.</li>
+                    <li>Created a docker container and embedded it with the Locobot packages to create a uniform system for all users. </li>
+                    <li>Implemented NLP to make the robot listen to human voice command and perform actions through ROS topics.</li>
+                </ul>
+            </div>
+
+            <div class="experience">
+                <h3>Undergraduate Teaching Assistant - University of Wisconsin-Madison</h3>
+                <p class="date">September 2022 - December 2022</p>
+                <ul>
+                    <li>Assisted in the functioning and development of the ’Object-Oriented Programming’ course.</li>
+                    <li>Conducted biweekly office hours for over 500+ students, helping them solve their doubts.</li>
+                    <li>Helped students understand concepts like Abstraction, Polymorphism, and Inheritance through programming assignments designed to be completed using Java.</li>
+                </ul>
+            </div>
+             
+        
     </section>
 
     <section id="publications" class="section">
-        <!-- Your publications content here -->
+        <div class="section-header"></div>
+        <h2>Publications</h2>
+        <div class="section-content">
+            <div class="publication">
+                <h3>A software toolkit and hardware platform for investigating and comparing robot autonomy algorithms in simulation and reality</h3>
+                <p class="authors">Elmquist, A., Young, A., Mahajan, I., Fahey, K., Dashora, A., Ashokkumar, S., Caldararu, S., Freire, V., Xu, X., Serban, R. and Negrut, D., 2022. A software toolkit and hardware platform for investigating and comparing robot autonomy algorithms in simulation and reality. arXiv preprint arXiv:2206.06537.</p>
+            </div>
+            <div class="publication">
+                <h3>ART/ATK: A research platform for assessing and mitigating the sim-to-real gap in robotics and autonomous vehicle engineering</h3>
+                <p class="authors">Elmquist, A., Young, A., Hansen, T., Ashokkumar, S., Caldararu, S., Dashora, A., Mahajan, I., Zhang, H., Fang, L., Shen, H. and Xu, X., 2022. ART/ATK: A research platform for assessing and mitigating the sim-to-real gap in robotics and autonomous vehicle engineering. arXiv preprint arXiv:2211.04886.</p>
+            </div>
+            <div class="publication">
+                <h3>Using simulation to design an MPC policy for field navigation using GPS sensing</h3>
+                <p class="authors">Zhang, H., Caldararu, S., Mahajan, I., Chatterjee, S., Hansen, T., Dashora, A., Ashokkumar, S., Fang, L., Xu, X., He, S. and Negrut, D., 2023. Using simulation to design an MPC policy for field navigation using GPS sensing. arXiv preprint arXiv:2304.09156.</p>
+            </div>
+            
+        </div>
     </section>
 
-    <section id="contact" class="section">
-        <!-- Your contact content here -->
+    
+
+    <section id="contact" class="section contact-section">
+        <h2 class="contact-heading">CONTACT</h2>
+        <a href="mailto:ishaanamahajan@gmail.com" class="email-link">
+            <span class="email-icon">📧</span>
+            
+        </a>
     </section>
+    
 
     <script src="script.js"></script>
 </body>

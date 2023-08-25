@@ -1,3 +1,4 @@
+/* Reset default margin and padding */
 body {
     margin: 0;
     padding: 0;
@@ -5,7 +6,7 @@ body {
 }
 
 .intro {
-    background: url('background-image.jpg') no-repeat center center;
+    background: url('image.jpeg') no-repeat center center;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -14,31 +15,156 @@ body {
     color: #fff;
 }
 
+.intro h1 {
+    font-size: 7rem; /* Adjust the value as needed */
+    margin-top: 2.9rem;
+    z-index: 1;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Border-like effect */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center; /* Center-align the items horizontally */
+    align-items: center;
+    margin-top: 1rem; /* Add some space between the logos and the heading */
+}
+
+.social-icons a {
+    margin: 0 0.5rem; /* Add space between the logos */
+}
+
+.social-icons img{
+    max-width: 50px; /* Adjust the size as needed */
+    border-radius: 50%; /* Make the photo round */
+}
+
+
+
+/* Navbar styles */
 .navbar {
     background-color: #333;
     text-align: center;
-    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
 }
 
 .navbar ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex; /* Display the list items horizontally */
+    justify-content: space-around; /* Distribute items evenly along the navbar */
 }
 
-.navbar ul li {
-    display: inline;
-    margin: 0 1rem;
+.navbar li {
+    display: inline; /* Display list items in a line */
 }
 
-.navbar ul li a {
+.navbar a {
     text-decoration: none;
-    color: #fff;
-    font-weight: bold;
+    color: white;
 }
 
+
+.experience {
+    margin-bottom: 1rem; /* Add some space between each experience */
+}
+
+
+/* ... (other navbar styles) ... */
+
+/* Updated section styles */
 .section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
     padding: 2rem;
+    background-color: #f0f5ff; /* Light blue background color */
 }
 
-/* Add more styling as needed */
+/* Section header text color */
+.section h2 {
+    color: #007bff; /* Blue color for section headers */
+}
+
+/* New styles for About Me and Contact sections */
+.about-me-section,
+.contact-section {
+    background-color: #333; 
+    color: white; /* White text color */
+    padding: 2rem;
+    margin: 2rem 0; /* Add some space around these sections */
+    border-radius: 10px; /* Add rounded corners */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-heading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.email-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+}
+
+.email-icon {
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-left {
+    margin-right: 2rem;
+}
+
+.about-left img {
+    max-width: 100px; /* Adjust the size as needed */
+    border-radius: 50%; /* Make the photo round */
+}
+
+.about-right {
+    text-align: left;
+}
+
+/* Style for 'About Me' heading */
+.about-heading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.contact-heading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.email-icon {
+    font-size: 2rem;
+    display: block;
+    margin-top: 1rem; /* Add spacing between the heading and icon */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; /* Center the icon horizontally */
+}
+
+
+
