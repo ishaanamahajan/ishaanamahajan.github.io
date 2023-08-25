@@ -66,7 +66,10 @@ body {
 .navbar {
     background-color: #333;
     text-align: center;
-    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100; /* Ensure the navbar is on top of other content */
 }
 
 .navbar ul {
@@ -103,9 +106,18 @@ body {
 /* Updated experience styles */
 .experience {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column; /* Display organization name above the position */
+    align-items: flex-start;
     margin-bottom: 1.5rem;
+}
+
+.experience h3 {
+    color: #333; /* Dark gray for organization name */
+    margin-bottom: 0.5rem; /* Add space between organization and position */
+}
+
+.experience p.date {
+    color: #666; /* Light gray for date */
 }
 
 /* Footer styles */
@@ -113,6 +125,20 @@ body {
     text-align: center;
     padding: 2rem;
 }
+/* Updated section styles */
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #f0f5ff; /* Light blue background color */
+}
+
+/* Section header text color */
+.section h2 {
+    color: #007bff; /* Blue color for section headers */
+}
+
 
 /* Basic responsive styling */
 @media screen and (max-width: 768px) {
