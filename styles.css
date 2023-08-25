@@ -97,6 +97,10 @@ body {
     padding: 2rem;
 }
 
+.section h2 {
+    color: #007bff; /* Blue color for section headers */
+}
+
 /* New styles for section content container */
 .section-content-container {
     flex: 1;
