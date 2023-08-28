@@ -72,8 +72,8 @@ body {
 
 .work-experience-section {
     display: flex; /* Use flexbox to achieve the two-column layout */
-    /*justify-content: space-between; /* Space evenly between columns */
-    align-items: center; /* Vertically center-align content */
+    justify-content: space-between; /* Space evenly between columns */
+    align-items: flex-start; /* Vertically center-align content */
     padding: 2rem;
     background-color: #f0f5ff; /* Light blue background color */
     margin: 2rem 0; /* Add some space around the section */
