@@ -68,12 +68,31 @@ body {
 }
 
 
-.experience {
-    margin-bottom: 1rem; /* Add some space between each experience */
+
+
+/* Style for work experience section */
+.work-experience-section {
+    padding: 2rem;
+    background-color: #f0f5ff; /* Light blue background color */
+    margin: 2rem 0; /* Add some space around the section */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+.work-entry {
+    margin-bottom: 1rem; /* Add spacing between each work entry */
+}
+
+.work-entry h3 {
+    color: #007bff; /* Blue color for work entry headings */
+    margin-bottom: 0.5rem; /* Add spacing below headings */
+}
+
+.position {
+    font-size: 14px;
+    color: grey;
 }
 
 
-/* ... (other navbar styles) ... */
 
 /* Updated section styles */
 .section {
