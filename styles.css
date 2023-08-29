@@ -70,22 +70,32 @@ body {
 
 
 
+/* Existing styles... */
+
+/* Style for work experience section */
 .work-experience-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start; /* Align items to the top vertically */
     padding: 2rem;
     background-color: #f0f5ff;
     margin: 2rem 0;
     border-radius: 10px;
 }
 
-.work-entry {
-    flex: 1;
-    margin: 0 1rem;
+.work-experience-section h2 {
+    color: #007bff;
+    margin-bottom: 0.5rem;
 }
 
-.work-entry h3 {
+.work-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.work-list li {
+    margin-bottom: 1.5rem;
+}
+
+.work-list h3 {
     color: #007bff;
     margin-bottom: 0.5rem;
 }
@@ -95,7 +105,6 @@ body {
     color: grey;
     font-style: italic;
 }
-
 .details {
     /* Add styles for the work details on the right side */
     flex: 1; /* Expand to fill available space */
