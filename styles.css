@@ -71,29 +71,34 @@ body {
 
 
 .work-experience-section {
-    
-    align-items: flex-start; /* Vertically center-align content */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items to the top vertically */
     padding: 2rem;
-    background-color: #f0f5ff; /* Light blue background color */
-    margin: 2rem 0; /* Add some space around the section */
-    border-radius: 10px; /* Add rounded corners */
+    background-color: #f0f5ff;
+    margin: 2rem 0;
+    border-radius: 10px;
 }
 
 .work-entry {
-    display: flex; /* Use flexbox to achieve the two-column layout */
-    justify-content: space-between; /* Space evenly between columns */
-    margin-bottom: 1rem; /* Add spacing between each work entry */
+    flex: 1;
+    margin: 0 1rem;
 }
 
 .work-entry h3 {
-    color: #007bff; /* Blue color for work entry headings */
-    margin-bottom: 0.5rem; /* Add spacing below headings */
+    color: #007bff;
+    margin-bottom: 0.5rem;
 }
 
 .position {
-    font-size: 16px;
-    font-style: italic;
+    font-size: 14px;
     color: grey;
+    font-style: italic;
+}
+
+.details {
+    /* Add styles for the work details on the right side */
+    flex: 1; /* Expand to fill available space */
 }
 
 .date {
