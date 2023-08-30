@@ -124,8 +124,18 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    padding: 2rem;
+    background-color: #f0f5ff;
+    margin: 2rem 0;
+    border-radius: 10px;
+    margin-left: 1rem; /* Adjust the margin as needed */
 }
 
+/* Flex-grow for the 'Work' heading */
+.work-container h2 {
+    flex-grow: 1;
+    color: #007bff; 
+}
 
 /* Updated section styles */
 .section {
