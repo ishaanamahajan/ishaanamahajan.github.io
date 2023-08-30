@@ -101,11 +101,6 @@ body {
     color: grey;
 }
 
-.work-experience-section h2{
-    color: #007bff;
-
-}
-
 
 
 .work-container,
@@ -121,7 +116,7 @@ body {
 
 /* Flex-grow for the 'Work' heading */
 .work-container h2 {
-    margin-left: 30px;
+   
     color: #007bff; 
 }
 
@@ -129,6 +124,7 @@ body {
 /* Section header text color */
 .section h2 {
     color: #007bff; /* Blue color for section headers */
+    margin-left: 10px;
    
 }
 
