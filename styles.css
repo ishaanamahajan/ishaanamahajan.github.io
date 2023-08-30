@@ -133,7 +133,7 @@ body {
 
 /* Flex-grow for the 'Work' heading */
 .work-container h2 {
-    flex-grow: 1;
+    
     color: #007bff; 
 }
 
