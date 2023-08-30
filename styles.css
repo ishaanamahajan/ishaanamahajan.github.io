@@ -120,7 +120,8 @@ body {
 
 }
 
-.work-container {
+.work-container,
+.section {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -128,7 +129,6 @@ body {
     background-color: #f0f5ff;
     margin: 2rem 0;
     border-radius: 10px;
-    margin-left: 1rem; /* Adjust the margin as needed */
 }
 
 /* Flex-grow for the 'Work' heading */
@@ -137,14 +137,6 @@ body {
     color: #007bff; 
 }
 
-/* Updated section styles */
-.section {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding: 2rem;
-    background-color: #f0f5ff; /* Light blue background color */
-}
 
 /* Section header text color */
 .section h2 {
