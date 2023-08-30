@@ -121,7 +121,7 @@ body {
 
 /* Flex-grow for the 'Work' heading */
 .work-container h2 {
-    
+    margin-left: 10px;
     color: #007bff; 
 }
 
@@ -129,6 +129,7 @@ body {
 /* Section header text color */
 .section h2 {
     color: #007bff; /* Blue color for section headers */
+    margin-left: 10px;
 }
 
 .section-content {
