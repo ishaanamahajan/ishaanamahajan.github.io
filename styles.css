@@ -143,6 +143,10 @@ body {
     color: #007bff; /* Blue color for section headers */
 }
 
+.section-content {
+    padding-left: 2rem; /* Same as the padding in the .work-list class */
+}
+
 /* New styles for About Me and Contact sections */
 .about-me-section,
 .contact-section {
