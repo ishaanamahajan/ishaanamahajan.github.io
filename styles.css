@@ -120,6 +120,12 @@ body {
 
 }
 
+.work-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 
 /* Updated section styles */
 .section {
