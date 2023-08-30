@@ -106,13 +106,25 @@ body {
 
 }
 
-/* Common styles for sections */
+
+
+.work-container,
 .section {
-    background-color: #f0f5ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     padding: 2rem;
+    background-color: #f0f5ff;
     margin: 2rem 0;
     border-radius: 10px;
 }
+
+/* Flex-grow for the 'Work' heading */
+.work-container h2 {
+    
+    color: #007bff; 
+}
+
 
 /* Section header text color */
 .section h2 {
@@ -120,13 +132,8 @@ body {
 }
 
 .section-content {
-    padding-left: 2rem; /* Same padding as your .work-list */
+    padding-left: 2rem; /* Same as the padding in the .work-list class */
 }
-
-/* Existing styles... */
-
-
-
 
 /* New styles for About Me and Contact sections */
 .about-me-section,
