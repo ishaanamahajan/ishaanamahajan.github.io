@@ -67,63 +67,13 @@ body {
     color: white;
 }
 
-.work-experience-section {
-    padding: 2rem;
-    background-color: #f0f5ff;
-    margin: 2rem 0;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: flex-start; /* Align items to the left */
-}
-
-.work-experience-section .section-header {
-    /* Style your section header here */
-}
-
-.work-experience-section h2 {
-    color: #007bff;
-    margin: 0;
-    align-self: flex-start; /* Align to the left */
-}
-
-.work-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    width: 100%; /* Ensure the list takes full width */
-}
-
-.work-list li {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 1.5rem;
-}
-
-.work-list h3 {
-    color: #007bff;
-    margin-right: 1rem;
-}
-
-.position {
-    font-size: 14px;
-    color: grey;
-    font-style: italic;
-}
-
-.work-list ul {
-    flex: 1; /* Expand to fill remaining space */
-    margin-left: 2rem;
-}
-
 
 
 
 /* Existing styles... */
 
 /* Style for work experience section */
-/* .work-experience-section {
+.work-experience-section {
     padding: 2rem;
     background-color: #f0f5ff;
     margin: 2rem 0;
@@ -154,7 +104,7 @@ body {
     font-size: 14px;
     color: grey;
     font-style: italic;
-} */
+}
 .details {
     /* Add styles for the work details on the right side */
     flex: 1; /* Expand to fill available space */
