@@ -108,9 +108,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    
+    padding: 2rem;
     background-color: #f0f5ff;
-    
+    margin: 2rem 0;
     border-radius: 10px;
 }
 
@@ -118,13 +118,14 @@ body {
 .work-container h2 {
    
     color: #007bff; 
+    margin-left: 500;
 }
 
 
 /* Section header text color */
 .pub_section h2 {
     color: #007bff; /* Blue color for section headers */
-    margin-left: 0px;
+    
    
 }
 
