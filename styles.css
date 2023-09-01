@@ -104,7 +104,7 @@ body {
 
 
 .work-container,
-.pub_section {
+.section {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -118,21 +118,20 @@ body {
 .work-container h2 {
    
     color: #007bff; 
-    margin-left: 500;
 }
 
 
 /* Section header text color */
-.pub_section h2 {
+.section h2 {
     color: #007bff; /* Blue color for section headers */
-    
+    margin-left: 0;
    
 }
 
 
-.section-content {
+/* .section-content {
     padding-left: 2rem; /* Same as the padding in the .work-list class */
-}
+/*} */
 
 /* New styles for About Me and Contact sections */
 .about-me-section,
