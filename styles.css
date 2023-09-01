@@ -110,7 +110,7 @@ body {
     align-items: flex-start;
     padding: 2rem;
     background-color: #f0f5ff;
-    margin: 2rem 0;
+    
     border-radius: 10px;
 }
 
@@ -122,11 +122,12 @@ body {
 
 
 /* Section header text color */
-.section h2 {
+.pub_section h2 {
     color: #007bff; /* Blue color for section headers */
     margin-left: 0;
    
 }
+
 
 .section-content {
     padding-left: 2rem; /* Same as the padding in the .work-list class */
