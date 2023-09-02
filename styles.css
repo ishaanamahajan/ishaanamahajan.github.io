@@ -126,7 +126,7 @@ body {
 .section h2 {
     color: #007bff; /* Blue color for section headers */
     margin-left: 0;
-    align-self: left;
+    float: left;
    
 }
 
