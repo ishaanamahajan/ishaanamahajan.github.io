@@ -17,7 +17,7 @@ body {
 
 .intro h1 {
     font-size: 7rem; /* Adjust the value as needed */
-    margin-top: 2.9rem;
+    margin-top: 25rem;
     z-index: 1;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Border-like effect */
 }
@@ -68,26 +68,89 @@ body {
 }
 
 
-.experience {
-    margin-bottom: 1rem; /* Add some space between each experience */
+
+
+
+.work-list {
+    list-style: none;
+    
+    padding-left: 2rem;
+}
+
+.work-list li {
+    margin-bottom: 1.5rem;
+}
+
+.work-list h3 {
+    color: #007bff;
+    margin-bottom: 0.5rem;
+}
+
+.position {
+    font-size: 14px;
+    color: grey;
+    font-style: italic;
+}
+.details {
+    /* Add styles for the work details on the right side */
+    flex: 1; /* Expand to fill available space */
+}
+
+.date {
+    font-size: 14px;
+    color: grey;
 }
 
 
-/* ... (other navbar styles) ... */
 
-/* Updated section styles */
+.work-container,
 .section {
     display: flex;
-    align-items: flex-start;
     justify-content: space-between;
+    align-items: flex-start;
     padding: 2rem;
-    background-color: #f0f5ff; /* Light blue background color */
+    background-color: #f0f5ff;
+    margin: auto;
+    border-radius: 10px;
+    
 }
+
+/* Flex-grow for the 'Work' heading */
+.work-container h2 {
+    
+    text-decoration: underline;
+    color: #007bff; 
+    
+}
+
 
 /* Section header text color */
 .section h2 {
     color: #007bff; /* Blue color for section headers */
+    margin-left: 0;
+    text-decoration: underline;
+    
 }
+
+.work-container::after,
+.section::after {
+    content: "";
+    display: block;
+    width: 2px; /* Adjust the width as needed */
+    height: 100%; /* Make the line extend the full height of the content */
+    background-color: #ccc; /* Faint grey color */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+
+/* .section-content {
+    padding-left: 2rem; /* Same as the padding in the .work-list class */
+/*} */
 
 /* New styles for About Me and Contact sections */
 .about-me-section,
@@ -108,22 +171,25 @@ body {
 }
 
 .email-link {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 1rem;
 }
+
+.email-icon {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
 
 .email-link:hover {
     text-decoration: underline;
 }
 
-.email-icon {
-    margin-right: 0.5rem;
-    font-size: 1.5rem;
-}
 
 .about-content {
     display: flex;
@@ -150,6 +216,22 @@ body {
     margin-bottom: 1rem;
 }
 
+.contact-details-heading {
+    color: #007bff; /* Blue color for the secondary heading */
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    
+}
+
+/* Style for contact information */
+.contact-info {
+    font-size: 0.9rem; /* Adjust the font size as needed */
+    margin-bottom: 0.5rem;
+    color: #777; /* Light grey color */
+    font-weight: bold; /* Bold text */
+}
+
 
 
 .contact-heading {
@@ -157,14 +239,7 @@ body {
     margin-bottom: 1rem;
 }
 
-.email-icon {
-    font-size: 2rem;
-    display: block;
-    margin-top: 1rem; /* Add spacing between the heading and icon */
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center; /* Center the icon horizontally */
-}
+
 
 
 
