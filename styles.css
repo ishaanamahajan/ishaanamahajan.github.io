@@ -124,18 +124,27 @@ body {
 }
 
 
-
-
 /* Section header text color */
 .section h2 {
     color: #007bff; /* Blue color for section headers */
     margin-left: 0;
     text-decoration: underline;
     
-   
 }
 
-
+.work-container::after,
+.section::after {
+    content: "";
+    display: block;
+    width: 2px; /* Adjust the width as needed */
+    height: 100%; /* Make the line extend the full height of the content */
+    background-color: #ccc; /* Faint grey color */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
 
 
 
