@@ -1,3 +1,4 @@
+/* Reset default margin and padding */
 body {
     margin: 0;
     padding: 0;
@@ -5,7 +6,7 @@ body {
 }
 
 .intro {
-    background: url('background-image.jpg') no-repeat center center;
+    background: url('image.jpeg') no-repeat center center;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -14,31 +15,231 @@ body {
     color: #fff;
 }
 
+.intro h1 {
+    font-size: 7rem; /* Adjust the value as needed */
+    margin-top: 25rem;
+    z-index: 1;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Border-like effect */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center; /* Center-align the items horizontally */
+    align-items: center;
+    margin-top: 1rem; /* Add some space between the logos and the heading */
+}
+
+.social-icons a {
+    margin: 0 0.5rem; /* Add space between the logos */
+}
+
+.social-icons img{
+    max-width: 50px; /* Adjust the size as needed */
+    border-radius: 50%; /* Make the photo round */
+}
+
+
+
+/* Navbar styles */
 .navbar {
     background-color: #333;
     text-align: center;
-    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
 }
 
 .navbar ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex; /* Display the list items horizontally */
+    justify-content: space-around; /* Distribute items evenly along the navbar */
 }
 
-.navbar ul li {
-    display: inline;
-    margin: 0 1rem;
+.navbar li {
+    display: inline; /* Display list items in a line */
 }
 
-.navbar ul li a {
+.navbar a {
     text-decoration: none;
-    color: #fff;
-    font-weight: bold;
+    color: white;
 }
 
+
+
+
+
+.work-list {
+    list-style: none;
+    
+    padding-left: 2rem;
+}
+
+.work-list li {
+    margin-bottom: 1.5rem;
+}
+
+.work-list h3 {
+    color: #007bff;
+    margin-bottom: 0.5rem;
+}
+
+.position {
+    font-size: 14px;
+    color: grey;
+    font-style: italic;
+}
+.details {
+    /* Add styles for the work details on the right side */
+    flex: 1; /* Expand to fill available space */
+}
+
+.date {
+    font-size: 14px;
+    color: grey;
+}
+
+
+
+.work-container,
 .section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     padding: 2rem;
+    background-color: #f0f5ff;
+    margin: auto;
+    border-radius: 10px;
+    
 }
 
-/* Add more styling as needed */
+/* Flex-grow for the 'Work' heading */
+.work-container h2 {
+    
+    text-decoration: underline;
+    color: #007bff; 
+    
+}
+
+
+/* Section header text color */
+.section h2 {
+    color: #007bff; /* Blue color for section headers */
+    margin-left: 0;
+    text-decoration: underline;
+    
+}
+
+.work-container::after,
+.section::after {
+    content: "";
+    display: block;
+    width: 2px; /* Adjust the width as needed */
+    height: 100%; /* Make the line extend the full height of the content */
+    background-color: #ccc; /* Faint grey color */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+
+/* .section-content {
+    padding-left: 2rem; /* Same as the padding in the .work-list class */
+/*} */
+
+/* New styles for About Me and Contact sections */
+.about-me-section,
+.contact-section {
+    background-color: #333; 
+    color: white; /* White text color */
+    padding: 2rem;
+    margin: 2rem 0; /* Add some space around these sections */
+    border-radius: 10px; /* Add rounded corners */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-heading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.email-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.email-icon {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+
+.email-link:hover {
+    text-decoration: underline;
+}
+
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-left {
+    margin-right: 2rem;
+}
+
+.about-left img {
+    max-width: 100px; /* Adjust the size as needed */
+    border-radius: 50%; /* Make the photo round */
+}
+
+.about-right {
+    text-align: left;
+}
+
+/* Style for 'About Me' heading */
+.about-heading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-details-heading {
+    color: #007bff; /* Blue color for the secondary heading */
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    
+}
+
+/* Style for contact information */
+.contact-info {
+    font-size: 0.9rem; /* Adjust the font size as needed */
+    margin-bottom: 0.5rem;
+    color: #777; /* Light grey color */
+    font-weight: bold; /* Bold text */
+}
+
+
+
+.contact-heading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
