@@ -128,6 +128,14 @@ body {
    
 }
 
+.work-container h2,
+.section h2 {
+    margin: 0;
+    padding: 0;
+}
+
+
+
 
 /* .section-content {
     padding-left: 2rem; /* Same as the padding in the .work-list class */
@@ -152,22 +160,25 @@ body {
 }
 
 .email-link {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 1rem;
 }
+
+.email-icon {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
 
 .email-link:hover {
     text-decoration: underline;
 }
 
-.email-icon {
-    margin-right: 0.5rem;
-    font-size: 1.5rem;
-}
 
 .about-content {
     display: flex;
@@ -214,14 +225,14 @@ body {
     margin-bottom: 1rem;
 }
 
-.email-icon {
+/* .email-icon {
     font-size: 2rem;
     display: block;
     margin-top: 1rem; /* Add spacing between the heading and icon */
-    margin-left: auto;
+   /* margin-left: auto;
     margin-right: auto;
     text-align: center; /* Center the icon horizontally */
-}
+/*} */
 
 
 
