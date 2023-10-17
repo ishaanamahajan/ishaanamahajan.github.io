@@ -232,6 +232,15 @@ body {
     font-weight: bold; /* Bold text */
 }
 
+.project-details {
+    display: none;
+    margin-top: 10px;
+    /* Add any other styling here */
+}
+
+.project-image {
+    cursor: pointer;
+}
 
 
 .contact-heading {
