@@ -103,150 +103,57 @@ body {
 
 
 
-.work-container,
-.section {
+/* ... (Keeping all the styles you provided as is) ... */
+
+/* Forcing items to stack vertically */
+.work-container, .about-content, .section {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 2rem;
-    background-color: #f0f5ff;
-    margin: auto;
-    border-radius: 10px;
-    
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;    /* Center items horizontally */
+    justify-content: flex-start; /* Align items to the top */
 }
 
-/* Flex-grow for the 'Work' heading */
-.work-container h2 {
-    
-    text-decoration: underline;
-    color: #007bff; 
-    
-}
-
-
-/* Section header text color */
-.section h2 {
-    color: #007bff; /* Blue color for section headers */
-    margin-left: 0;
-    text-decoration: underline;
-    
-}
-
-.work-container::after,
-.section::after {
-    content: "";
-    display: block;
-    width: 2px; /* Adjust the width as needed */
-    height: 100%; /* Make the line extend the full height of the content */
-    background-color: #ccc; /* Faint grey color */
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
-}
-
-
-
-/* .section-content {
-    padding-left: 2rem; /* Same as the padding in the .work-list class */
-/*} */
-
-/* New styles for About Me and Contact sections */
-.about-me-section,
-.contact-section {
-    background-color: #333; 
-    color: white; /* White text color */
-    padding: 2rem;
-    margin: 2rem 0; /* Add some space around these sections */
-    border-radius: 10px; /* Add rounded corners */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.contact-heading {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
-
-.email-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    color: white;
-    font-size: 1.2rem;
-    margin-top: 1rem;
-}
-
-.email-icon {
-    font-size: 1.5rem;
-    margin-right: 0.5rem;
-}
-
-
-.email-link:hover {
-    text-decoration: underline;
-}
-
-
-.about-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
+/* Remove spacing between About image and text */
 .about-left {
-    margin-right: 2rem;
+    margin-right: 0;
 }
 
+/* Styling the about image and text for better visual spacing */
 .about-left img {
-    max-width: 100px; /* Adjust the size as needed */
-    border-radius: 50%; /* Make the photo round */
+    margin-bottom: 15px; /* Spacing below the image */
 }
 
-.about-right {
-    text-align: left;
+/* Adjusting work list for better appearance */
+.work-list {
+    text-align: center;
 }
 
-/* Style for 'About Me' heading */
-.about-heading {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
-
-.contact-details-heading {
-    color: #007bff; /* Blue color for the secondary heading */
-    font-size: 1rem;
+/* Adjusting work details */
+.details {
+    text-align: center;
     margin-top: 1rem;
-    margin-bottom: 0.5rem;
-    
 }
 
-/* Style for contact information */
-.contact-info {
-    font-size: 0.9rem; /* Adjust the font size as needed */
-    margin-bottom: 0.5rem;
-    color: #777; /* Light grey color */
-    font-weight: bold; /* Bold text */
-}
-
-.project {
-    margin-bottom: 30px; /* Adjust spacing as per your requirements */
-}
-
-.project-details {
-    display: none;
-    margin-top: 10px;
-    /* Add any other styling here */
-}
-
+/* Adjusting the projects section */
 .project-image {
-    cursor: pointer;
-    display: block; /* Ensures the image takes the full width of the container */
-    margin: 0 auto; /* Centers the image */
+    display: block;
+    margin: 0 auto 15px auto; /* Vertical space below the image */
+    max-width: 100%;  /* Ensures that the image scales down if it's too large for its container */
 }
+
+/* Adjustments for Work section */
+.work-container h2 {
+    text-align: center;
+}
+
+/* I noticed there's an absolutely positioned pseudo element (::after) to act as a divider line. 
+We need to adjust or remove it because our layout has changed. */
+.work-container::after, .section::after {
+    display: none; /* For simplicity, I'm removing the divider line. Adjust if necessary. */
+}
+
+/* ... (Keep any additional styles you provided below this) ... */
+
 
 
 .contact-heading {
