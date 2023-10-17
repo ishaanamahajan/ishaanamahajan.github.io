@@ -106,22 +106,54 @@ body {
 /* ... (Keeping all the styles you provided as is) ... */
 
 /* Forcing items to stack vertically */
-.work-container, .about-content, .section {
+.work-container,  .section {
     display: flex;
     flex-direction: column; /* Stack items vertically */
     align-items: center;    /* Center items horizontally */
     justify-content: flex-start; /* Align items to the top */
 }
 
-/* Remove spacing between About image and text */
-.about-left {
-    margin-right: 0;
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* Styling the about image and text for better visual spacing */
-.about-left img {
-    margin-bottom: 15px; /* Spacing below the image */
+.about-left {
+    margin-right: 2rem;
 }
+
+.about-left img {
+    max-width: 100px; /* Adjust the size as needed */
+    border-radius: 50%; /* Make the photo round */
+}
+
+.about-right {
+    text-align: left;
+}
+
+/* Style for 'About Me' heading */
+.about-heading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-details-heading {
+    color: #007bff; /* Blue color for the secondary heading */
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    
+}
+
+/* Style for contact information */
+.contact-info {
+    font-size: 0.9rem; /* Adjust the font size as needed */
+    margin-bottom: 0.5rem;
+    color: #777; /* Light grey color */
+    font-weight: bold; /* Bold text */
+}
+
 
 /* Adjusting work list for better appearance */
 .work-list {
