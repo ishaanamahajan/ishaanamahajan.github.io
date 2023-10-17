@@ -232,6 +232,10 @@ body {
     font-weight: bold; /* Bold text */
 }
 
+.project {
+    margin-bottom: 30px; /* Adjust spacing as per your requirements */
+}
+
 .project-details {
     display: none;
     margin-top: 10px;
@@ -240,6 +244,8 @@ body {
 
 .project-image {
     cursor: pointer;
+    display: block; /* Ensures the image takes the full width of the container */
+    margin: 0 auto; /* Centers the image */
 }
 
 
