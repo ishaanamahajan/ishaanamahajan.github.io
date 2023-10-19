@@ -1,199 +1,324 @@
-/* Reset default margin and padding */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
-
-.intro {
-    background: url('image.jpeg') no-repeat center center;
+.intro-image {
+    background-image: url('image.jpeg'); /* Replace with your image path */
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
+    width: 100%;
+    position: relative;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
+    justify-content: center; /* Center the text horizontally */
+    align-items: center;     /* Center the text vertically */
 }
 
-.intro h1 {
+.intro-text {
+    color: #ffffff; /* White color for the text */
+    
+    
     font-size: 7rem; /* Adjust the value as needed */
     margin-top: 25rem;
-    z-index: 1;
+    z-index: 2;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Border-like effect */
 }
 
-.social-icons {
-    display: flex;
-    justify-content: center; /* Center-align the items horizontally */
-    align-items: center;
-    margin-top: 1rem; /* Add some space between the logos and the heading */
-}
 
-.social-icons a {
-    margin: 0 0.5rem; /* Add space between the logos */
-}
-
-.social-icons img{
-    max-width: 50px; /* Adjust the size as needed */
-    border-radius: 50%; /* Make the photo round */
-}
-
-
-
-/* Navbar styles */
-.navbar {
-    background-color: #333;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-}
-
-.navbar ul {
-    list-style: none;
+body, h2, h3, p, a {
     margin: 0;
     padding: 0;
-    display: flex; /* Display the list items horizontally */
-    justify-content: space-around; /* Distribute items evenly along the navbar */
+    font-family: 'Arial', sans-serif;
+    text-decoration: none;
 }
 
-.navbar li {
-    display: inline; /* Display list items in a line */
+body {
+    
+    height: 100vh;
+    color: #333;
+    padding-top: 0px; /* Adjusted for navbar space */
+    
+    /* Push the content below the intro image */
+    
+}
+
+.content-container {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* Sidebar styles */
+.sidebar {
+    width: 250px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #007BFF;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 .navbar a {
-    text-decoration: none;
     color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin: 0 15px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.social-links a {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #333;
+}
+
+.layout-container {
+    display: flex; /* This will ensure the sidebar and main content are side by side */
 }
 
 
-
-
-
-.work-list {
-    list-style: none;
-    
-    padding-left: 2rem;
+/* Main content styles */
+.main-content {
+    flex: 1;
+    padding: 40px;
+    overflow-y: auto;
 }
 
-.work-list li {
-    margin-bottom: 1.5rem;
+h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
 }
 
-.work-list h3 {
-    color: #007bff;
-    margin-bottom: 0.5rem;
+p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.education-entry {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.education-entry h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.education-entry p {
+    margin: 10px 0;
+}
+
+/* Work/Research Experience Styles */
+.work-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.work-item h3 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.5em;
 }
 
 .position {
-    font-size: 14px;
-    color: grey;
     font-style: italic;
-}
-.details {
-    /* Add styles for the work details on the right side */
-    flex: 1; /* Expand to fill available space */
+    margin: 5px 0;
 }
 
-.date {
-    font-size: 14px;
-    color: grey;
+.work-item p {
+    margin: 10px 0;
 }
 
+/* Projects Styles */
+#projects {
+    background-color: #ffffff;
+    padding: 60px 0 120px 0; /* Increased bottom padding */
+    font-family: 'Arial', sans-serif;
+}
 
-
-/* ... (Keeping all the styles you provided as is) ... */
-
-/* Forcing items to stack vertically */
-.work-container,  .section {
+.projects-section {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center;    /* Center items horizontally */
-    justify-content: flex-start; /* Align items to the top */
-}
-
-.about-content {
-    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     justify-content: center;
-    align-items: center;
+    margin-bottom: 60px;
 }
 
-.about-left {
-    margin-right: 2rem;
+.project-card {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 12px #aaa;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s;
 }
 
-.about-left img {
-    max-width: 100px; /* Adjust the size as needed */
-    border-radius: 50%; /* Make the photo round */
+.project-card:hover {
+    transform: scale(1.05);
 }
 
-.about-right {
-    text-align: left;
+.project-card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
 }
 
-/* Style for 'About Me' heading */
-.about-heading {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+.project-details {
+    display: none;
+    padding: 10px;
 }
 
-.contact-details-heading {
-    color: #007bff; /* Blue color for the secondary heading */
-    font-size: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
-    
+.project-card h3 {
+    margin: 10px;
+    font-size: 1.5em;
 }
 
-/* Style for contact information */
-.contact-info {
-    font-size: 0.9rem; /* Adjust the font size as needed */
-    margin-bottom: 0.5rem;
-    color: #777; /* Light grey color */
-    font-weight: bold; /* Bold text */
+.project-card p {
+    margin: 10px;
+    font-size: 1.2em;
+    color: #666;
 }
 
+.project-details {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    background-color: #f5f5f5;
+    padding: 0 10px;
+}
 
-/* Adjusting work list for better appearance */
-.work-list {
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    overflow: auto;
+    padding: 50px;
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#publications {
+    padding: 20px 0;
+    background-color: #f9f9f9;
+}
+
+.publication-card {
+    padding: 15px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.publication-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.pub-info {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.pub-abstract {
+    margin-bottom: 10px;
+}
+
+.pub-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.pub-link:hover {
+    text-decoration: underline;
+}
+
+.contact-section {
     text-align: center;
+    padding: 50px 0;
+    background-color: #f4f4f4;
 }
 
-/* Adjusting work details */
-.details {
-    text-align: center;
-    margin-top: 1rem;
+.contact-icon {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
 }
 
-/* Adjusting the projects section */
-.project-image {
-    display: block;
-    margin: 0 auto 15px auto; /* Vertical space below the image */
-    max-width: 100%;  /* Ensures that the image scales down if it's too large for its container */
+.contact-icon:hover {
+    background-color: #555;
 }
 
-/* Adjustments for Work section */
-.work-container h2 {
-    text-align: center;
+.contact-icon i {
+    margin-right: 10px;
 }
-
-/* I noticed there's an absolutely positioned pseudo element (::after) to act as a divider line. 
-We need to adjust or remove it because our layout has changed. */
-.work-container::after, .section::after {
-    display: none; /* For simplicity, I'm removing the divider line. Adjust if necessary. */
-}
-
-/* ... (Keep any additional styles you provided below this) ... */
-
-
-
-.contact-heading {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
-
-
-
-
-

@@ -8,12 +8,12 @@ function toggleDetails(id) {
     }
 }
 
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
 
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
-});
+function toggleProjectDetails(projectId) {
+    const details = document.getElementById(projectId);
+    if (details.style.maxHeight) {
+        details.style.maxHeight = null;
+    } else {
+        details.style.maxHeight = details.scrollHeight + "px";
+    }
+}
