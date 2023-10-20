@@ -10,10 +10,10 @@ function toggleDetails(id) {
 
 
 function toggleProjectDetails(projectId) {
-    const details = document.getElementById(projectId);
-    if (details.style.maxHeight) {
-        details.style.maxHeight = null;
+    var projectDetails = document.getElementById(projectId);
+    if (projectDetails.style.display === "none" || projectDetails.style.display === "") {
+        projectDetails.style.display = "block";
     } else {
-        details.style.maxHeight = details.scrollHeight + "px";
+        projectDetails.style.display = "none";
     }
 }
