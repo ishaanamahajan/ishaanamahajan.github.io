@@ -1,12 +1,4 @@
 // Smooth scrolling
-function toggleDetails(id) {
-    let details = document.getElementById(id);
-    if (details.style.display === "none" || details.style.display === "") {
-        details.style.display = "block";
-    } else {
-        details.style.display = "none";
-    }
-}
 
 
 function toggleProjectDetails(projectId) {
@@ -17,3 +9,6 @@ function toggleProjectDetails(projectId) {
         projectDetails.style.display = "none";
     }
 }
+
+
+

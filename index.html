@@ -11,8 +11,8 @@
 
 
 </head>
-<script src="script.js"></script>
 
+<body>
 
 
 <div class="intro-image">
@@ -21,11 +21,12 @@
    
 <div class="content-container">
     <div class="layout-container"> 
-    <!-- Sidebar with About Me and Social Media Links -->
+    
 <aside class="sidebar">
     <img src="PersonalImage.png" alt="Ishaan Mahajan" class="profile-pic">
     <h2>Ishaan Mahajan</h2>
     <p>I am passionate about Robotics, and want to create an impact in the field through my research. </p>
+    
     <div class="social-links">
         <a href="https://github.com/ishaanamahajan" target="_blank"><i class="fab fa-github"></i> GitHub</a>
         <a href="https://www.linkedin.com/in/ishaan-mahajan15/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
@@ -42,6 +43,7 @@
         <a href="#work-experience">Work</a>
         <a href="#projects">Projects</a>
         <a href="#publications">Publications</a>
+        <a href="#contact-section">Contact</a>
     </div>
 
     <!-- Education Section -->
@@ -67,7 +69,7 @@
 
         <!-- Work/Research Experience Section -->
 <section id="work-experience">
-    <h2>WORK/RESEARCH EXPERIENCE</h2>
+    <h2>WORK & RESEARCH</h2>
 
     <!-- Simulation-Based Engineering Lab at UW Madison -->
     <div class="work-item">
@@ -141,16 +143,8 @@
 
 </section>
 
-<script>
-    function toggleProjectDetails(projectId) {
-        var projectDetails = document.getElementById(projectId);
-        if (projectDetails.style.display === "none" || projectDetails.style.display === "") {
-            projectDetails.style.display = "block";
-        } else {
-            projectDetails.style.display = "none";
-        }
-    }
-</script>
+
+
 
 
 <section id="projects">
@@ -159,47 +153,27 @@
     <div class="projects-section">
 
         <!-- Project 1: Autonomy State Controls -->
-        <div class="project-card" onclick="toggleProjectDetails('project1')">
+        <div class="project-card">
             <img src="ME468.jpeg" alt="Autonomy State Controls">
             <h3>Autonomy State Controls | ME468</h3>
-            <p>Spring 2022 | Madison, WI</p>
-            <div class="project-details" id="project1">
-                <ul>
-                    <li>Team of 2 designed and implemented an autonomy stack consisting of state-estimation and control algorithms in simulation.</li>
-                    <li>Developed a Kalman Filter for state-estimation purposes based on random initial states of the vehicle.</li>
-                    <li>Developed a PID controller as the control policy on the vehicle.</li>
-                </ul>
-            </div>
+            <p>Implemented an autonomy stack with state-estimation and control algorithms in a simulated environment. Developed a Kalman Filter for precise state-estimation based on varying initial states of the vehicle. Further, a PID controller was integrated as the primary control policy for the vehicle.</p>
         </div>
     
         <!-- Project 2: Path Planners -->
-        <div class="project-card" onclick="toggleProjectDetails('project2')">
+        <div class="project-card">
             <img src="C524-Project.png" alt="Path Planners">
             <h3>Path Planners | CS524</h3>
-            <p>Spring 2023 | Madison, WI</p>
-            <div class="project-details" id="project2">
-                <ul>
-                    <li>Team of 2 designed and implemented two control policies, PID and MPC, for comparison and evaluation purposes on a 2D bicycle model.</li>
-                    <li>Implemented both the policies on different trajectories for urban driving scenarios like obstacle avoidance.</li>
-                    <li>Implemented both the policies as optimization problems in Julia.</li>
-                </ul>
-            </div>
+            <p>Designed and executed two distinct control policies, PID and MPC, on a 2D bicycle model. These policies were adeptly applied to various trajectories, especially for urban driving scenarios like obstacle avoidance. Both strategies were meticulously crafted as optimization problems using Julia.</p>
         </div>
     
         <!-- Project 3: Low Vision Virtual Reality Toolkit -->
-        <div class="project-card" onclick="toggleProjectDetails('project3')">
+        <div class="project-card">
             <img src="CS639-Project.png" alt="Low Vision Virtual Reality Toolkit">
             <h3>Low Vision Virtual Reality Toolkit | CS639</h3>
-            <p>Fall 2022 | Madison, WI</p>
-            <div class="project-details" id="project3">
-                <ul>
-                    <li>Developed a toolkit to help with low-vision problems in a 4 member team.</li>
-                    <li>Implemented 4 functionalities - Magnification, Contrast, OCR, and text-to-Speech.</li>
-                </ul>
-            </div>
+            <p>Developed an innovative toolkit to assist individuals with low-vision challenges. This toolkit is equipped with advanced functionalities such as Magnification, Contrast enhancement, Optical Character Recognition (OCR), and a text-to-Speech feature for enhanced accessibility.</p>
         </div>
-    
     </div>
+    
 
     
     <!-- Project 1: Autonomy State Controls -->
@@ -251,18 +225,31 @@
 </div>
 
 
-
+<script src="script.js"></script>
 </body>
 
-<section class="contact-section">
+
+
+<section id="contact-section">
+   
     <h2>Contact Me</h2>
     <a href="mailto:ishaanamahajan@gmail.com" class="contact-icon">
         <i class="fas fa-envelope"></i>
         Send me an email
     </a>
+    <div class="social-contact">
+        <a href="https://www.linkedin.com/in/ishaan-mahajan15/" target="_blank" class="contact-icon contact-linkedin">
+            <i class="fab fa-linkedin"></i>
+            
+        </a>
+        <a href="https://github.com/ishaanamahajan" target="_blank" class="contact-icon contact-github">
+            <i class="fab fa-github"></i>
+            
+        </a>
+    </div>
+
+    </section>
 </section>
 
-</div>
 
-</html>
 

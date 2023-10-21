@@ -16,7 +16,7 @@
     
     
     font-size: 7rem; /* Adjust the value as needed */
-    margin-top: 25rem;
+    margin-top: 15rem;
     z-index: 2;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Border-like effect */
 }
@@ -47,7 +47,7 @@ body {
 
 /* Sidebar styles */
 .sidebar {
-    width: 250px;
+    width: 1000px;
     background-color: #f7f7f7;
     padding: 20px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
@@ -192,7 +192,6 @@ p {
     border-radius: 5px;
     box-shadow: 2px 2px 12px #aaa;
     overflow: hidden;
-    cursor: pointer;
     transition: transform 0.2s;
 }
 
@@ -206,11 +205,6 @@ p {
     object-fit: contain;
 }
 
-.project-details {
-    display: none;
-    padding: 10px;
-}
-
 .project-card h3 {
     margin: 10px;
     font-size: 1.5em;
@@ -222,13 +216,7 @@ p {
     color: #666;
 }
 
-.project-details {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s;
-    background-color: #f5f5f5;
-    padding: 0 10px;
-}
+
 
 .modal {
     display: none;
@@ -299,7 +287,7 @@ p {
     text-decoration: underline;
 }
 
-.contact-section {
+#contact-section {
     text-align: center;
     padding: 50px 0;
     background-color: #f4f4f4;
@@ -307,17 +295,16 @@ p {
 
 .contact-icon {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border-radius: 5px;
+    margin: 10px;
+    font-size: 24px;
     text-decoration: none;
-    transition: background-color 0.3s;
+    color: #333; /* or any color you prefer */
 }
 
 .contact-icon:hover {
-    background-color: #555;
+    color: #0077b5; /* LinkedIn blue for hover effect, change as needed */
 }
+
 
 .contact-icon i {
     margin-right: 10px;
