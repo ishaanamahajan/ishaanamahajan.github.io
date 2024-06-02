@@ -8,6 +8,8 @@
   author={ {<u>Ishaan Mahajan </u>} and Unjhawala, Huzaifa and Zhang, Harry and Zhou, Zhenhao and Young, Aaron and Ruiz, Alexis and Caldararu, Stefan and Batagoda, Nevindu and Ashokkumar, Sriram and Negrut, Dan},
   journal={arXiv preprint arXiv:2403.11000},
   preview = {flow_chart.png},
+  abstract = {Simulation can and should play a critical role in the development and testing of algorithms for autonomous agents. What might reduce its impact is the ``sim2real'' gap -- the algorithm response differs between operation in simulated versus real-world environments. This paper introduces an approach to evaluate this gap, focusing on the accuracy of sensor simulation -- specifically IMU and GPS -- in velocity estimation tasks for autonomous agents. Using a scaled autonomous vehicle, we conduct 40 real-world experiments across diverse environments then replicate the experiments in simulation with five distinct sensor noise models. We note that direct comparison of raw simulation and real sensor data fails to quantify the sim2real gap for robotics applications. We demonstrate that by using a state of the art state-estimation package as a ``judge'', and by evaluating the performance of this state-estimator in both real and simulated scenarios, we can isolate the sim2real discrepancies stemming from sensor simulations alone. The dataset generated is open-source and publicly available for unfettered use.},
+  arxiv = {2403.11000},
   year={2024}
 }
 
@@ -17,6 +19,9 @@
   year={2024},
   selected = True, 
   preview = {training.png},
+  abstract = {2 Method The ART platform is designed to facilitate autonomy policy development. It is based on the open-source simulation engine Chrono [1], whose high-fidelity vehicle dynamics [5] and physically based sensor [6] simulators anchor the autonomy design process. ART works with ROS2 and leverages the recently implemented Chrono:: ROS module.
+Control Policy Design 1: The first control policy is an end-to-end learning-based approach that uses imitation learning. The policy is trained to map the sensor data directly to control inputs in order to perform both path following and obstacle avoidance. The training pipeline is shown in Fig. 1. After the training process, the policy is validated in simulation and then transferred to the real vehicle for testing.},
+  pdf = {https://easychair.org/publications/preprint_open/GzWn},
   institution={EasyChair}
 }
 
@@ -26,6 +31,8 @@
   year={2024},
   selected = True,
   preview = {dodge.png},
+  abstract = {We report on the transfer of an end-to-end control policy synthesized in simulation to a real-world set-ting. The policy guides a 1/6th scale vehicle, named ART-B, to a target location while navigating aroundobstacles with the aid of a 2D Lidar and GPS sensor. We utilize Gym-Chrono, a ReinforcementLearning (RL) environment based on the Project Chrono simulator, and the Open AI Gymnasium frame-work to synthesize this control policy trained using the Proximal Policy Optimization (PPO) algorithm.The approach involves training three versions of the policy: one for guiding ART-B across flat-rigid ter-rain, another for hilly-rigid terrain, and a third for hilly-deformable terrain. Subsequently, each policy will be tested in a real-world scenario with deformable terrain to answer the underlying research question– Does training an end-to-end control policy in a simulated setting with deformable terrain enhance itseffectiveness in real-world applications?},
+  pdf = {https://easychair.org/publications/preprint_open/1GgD},
   institution={EasyChair}
 }
 
@@ -35,6 +42,8 @@
   year={2024},
   selected = True, 
   preview = {ROS_breakdown.png},
+  abstract = {The SAE AutoDrive Challenge II is a four-year collegiate competition dedicated to developing a Level 4 autonomous vehicle by 2025. In January 2023, the participating teams each received a Chevy Bolt EUV. Within a span of five months, the second phase of the competition took place in Ann Arbor, MI. The authors of this contribution, who participated in this event as team Wisconsin Autonomous representing the University of Wisconsin–Madison, secured second place in static events and third place in dynamic events. This has been accomplished by reducing reliance on the actual vehicle platform and instead leveraging physical analogs and simulation. This paper outlines the software and hardware infrastructure of the competing vehicle, touching on issues pertaining sensors, hardware, and the software architecture employed on the autonomous vehicle. We discuss the LiDAR-camera fusion approach for object detection and the three-tier route planning and following systems. One of the defining aspects of our approach was leveraging early simulation and the use of physical analogs, which accelerated the development of the autonomy algorithms. In the process, we established a rapid autonomous vehicle development methodology that will anchor our technical effort in the third stage of the SAE AutoDrive Challenge II competition.},
+  pdf = {https://www.sae.org/publications/technical-papers/content/2024-01-1980/},
   institution={SAE Technical Paper}
 }
 
@@ -43,6 +52,8 @@
   author={Zhang, Harry and Caldararu, Stefan and Young, Aaron and Ruiz, Alexis and Unjhawala, Huzaifa and {<u>Ishaan Mahajan </u>} and Ashokkumar, Sriram and Batagoda, Nevindu and Zhou, Zhenhao and Bakke, Luning and others},
   journal={arXiv preprint arXiv:2403.18021},
   preview = {pipeline.png},
+  abstract = {We report results obtained and insights gained while answering the following question: how effective is it to use a simulator to establish path following control policies for an autonomous ground robot? While the quality of the simulator conditions the answer to this question, we found that for the simulation platform used herein, producing four control policies for path planning was straightforward once a digital twin of the controlled robot was available. The control policies established in simulation and subsequently demonstrated in the real world are PID control, MPC, and two neural network (NN) based controllers. Training the two NN controllers via imitation learning was accomplished expeditiously using seven simple maneuvers: follow three circles clockwise, follow the same circles counter-clockwise, and drive straight. A test randomization process that employs random micro-simulations is used to rank the ``goodness'' of the four control policies. The policy ranking noted in simulation correlates well with the ranking observed when the control policies were tested in the real world. The simulation platform used is publicly available and BSD3-released as open source; a public Docker image is available for reproducibility studies. It contains a dynamics engine, a sensor simulator, a ROS2 bridge, and a ROS2 autonomy stack the latter employed both in the simulator and the real world experiments.},
+  arxiv = {2403.18021},
   year={2024}
 }
 
@@ -54,6 +65,8 @@
   author={Zhang, Harry and Caldararu, Stefan and Ashokkumar, Sriram and {<u>Ishaan Mahajan </u>} and Young, Aaron and Ruiz, Alexis and Unjhawala, Huzaifa and Bakke, Luning and Negrut, Dan},
   journal={arXiv preprint arXiv:2309.09870},
   preview = {simandreal.png},
+  abstract = {We report on a study that employs an in-house developed simulation infrastructure to accomplish zero shot policy transferability for a control policy associated with a scale autonomous vehicle. We focus on implementing policies that require no real world data to be trained (Zero-Shot Transfer), and are developed in-house as opposed to being validated by previous works. We do this by implementing a Neural Network (NN) controller that is trained only on a family of circular reference trajectories. The sensors used are RTK-GPS and IMU, the latter for providing heading. The NN controller is trained using either a human driver (via human in the loop simulation), or a Model Predictive Control (MPC) strategy. We demonstrate these two approaches in conjunction with two operation scenarios: the vehicle follows a waypoint-defined trajectory at constant speed; and the vehicle follows a speed profile that changes along the vehicle's waypoint-defined trajectory. The primary contribution of this work is the demonstration of Zero-Shot Transfer in conjunction with a novel feed-forward NN controller trained using a general purpose, in-house developed simulation platform.},
+  arxiv = {2309.09870}, 
   year={2023}
 }
 
@@ -62,6 +75,8 @@
   author={Zhang, Harry and Caldararu, Stefan and {<u>Ishaan Mahajan </u>} and Chatterjee, Shouvik and Hansen, Thomas and Dashora, Abhiraj and Ashokkumar, Sriram and Fang, Luning and Xu, Xiangru and He, Shen and others},
   journal={ECCOMAS Thematic Conference on Multibody Dynamics},
   preview = {ART_dART.png},
+  abstract = {Modeling a robust control system with a precise GPS-based state estimation capability in simulation can be useful in field navigation applications as it allows for testing and validation in a controlled environment. This testing process would enable navigation systems to be developed and optimized in simulation with direct transferability to real-world scenarios. The multi-physics simulation engine Chrono allows for the creation of scenarios that may be difficult or dangerous to replicate in the field, such as extreme weather or terrain conditions. Autonomy Research Testbed (ART), a specialized robotics algorithm testbed, is operated in conjunction with Chrono to develop an MPC control policy as well as an EKF state estimator. This platform enables users to easily integrate custom algorithms in the autonomy stack. This model is initially developed and used in simulation and then tested on a twin vehicle model in reality, to demonstrate the transferability between simulation and reality (also known as Sim2Real).},
+  arxiv = {2304.09156},
   year={2023}
 }
 
@@ -71,6 +86,8 @@
   journal={ECCOMAS Thematic Conference on Multibody Dynamics},
   preview = {ART_ATKstack.jpg},
   selected = True,
+  abstract = {We describe a software framework and a hardware platform used in tandem for the design and analysis of robot autonomy algorithms in simulation and reality. The software, which is open source, containerized, and operating system (OS) independent, has three main components: a ROS 2 interface to a vehicle simulation framework (Chrono), which provides high-fidelity wheeled/tracked vehicle and sensor simulation; a basic ROS 2-based autonomy stack for algorithm design and testing; and, a development ecosystem which enables visualization, and hardware-in-the-loop experimentation in perception, state estimation, path planning, and controls. The accompanying hardware platform is a 1/6th scale vehicle augmented with reconfigurable mountings for computing, sensing, and tracking. Its purpose is to allow algorithms and sensor configurations to be physically tested and improved. Since this vehicle platform has a digital twin within the simulation environment, one can test and compare the same algorithms and autonomy stack in simulation and reality. This platform has been built with an eye towards characterizing and managing the simulation-toreality gap. Herein, we describe how this platform is set up, deployed, and used to improve autonomy for mobility applications.},
+  pdf = {https://multibody2023.tecnico.ulisboa.pt/prog_MULTIBODY_WEB/MULTIBODY2023_PAPERS/ID_142.pdf},
   year={2023}
 }
 
@@ -80,6 +97,8 @@
   journal={ECCOMAS Thematic Conference on Multibody Dynamics},
   preview = {dART.png},
   selected = True,
+  abstract = {This extended abstract reports on early results generated with a research testbed whose purpose is the characterization, measurement, and mitigation of the gap between simulation and reality in robots and off-road autonomous vehicles. Sometimes called the sim2real gap [1], it pertains to the difference in behavior of a robot whose autonomy stack is designed in simulation and then deployed in the real world. In most cases, the behavior in simulation is manifestly superior to the one in the real world. There are many causes for this, eg: the difference associated with the process of simulating sensors; the idealization of the dynamics model used to represent the motion of the real robot; shortcomings in capturing the world within which the robot operates; the non-deterministic temporal manner in which the underlying Robot Operating System (ROS) infrastructure operates, which leads to race conditions in producing and using information; and the difference in compute power available on an actual robot and when carrying out simulation. Ultimately, the sim2real gap is the observed inability of a control policy designed in simulation to work well with the real robot over a broad spectrum of operation regimes. Closing the sim2real gap is a case by case undertaking. In this abstract, we show a manifestation of this gap as it played out in conjunction with an in-house developed framework called ART/ATK–Autonomy Research Testbed/Autonomy Toolkit [2, 3], which is used to design and test autonomy stacks.},
+  pdf = {https://multibody2023.tecnico.ulisboa.pt/prog_MULTIBODY_WEB/MULTBODY2023_ABSTRACTS/ID_74_612_extendedAbstract.pdf},
   year={2023}
 }
 
@@ -89,6 +108,8 @@
   author={Unjhawala, Huzaifa and {<u>Ishaan Mahajan </u>} and Serban, Radu and Negrut, Dan},
   preview = {tax.png},
   journal={Simulation Based Engineering Lab},
+  abstract = {Most dynamic systems, including vehicles can be modelled in the form of first order Initial Value problems which is an Ordinary Differential Equation (ODE) along with an Initial Condition. This in explicit form is usually given by: u= f (u, P, t), u (t0)= u0 (P)(1) where u∈ RN where N is the dimension of the system state space and P∈ RNP is the vector of parameters that define the system. For a vehicle P consists of parameters such as tire stiffness, friction coefficient etc. It is not always the case that first/second order systems can be written in this form; but for the purpose of this report, we will only consider those systems that can. In this technical report, we discuss the existing methods used for sensitivity analysis of first order systems given by Eq.(1) and where Automatic Differentiation (AD) can be used to make computation more accurate and fast. Section 2 gives a short overview on the taxonomy of different approaches uses for sensitivity calculation. The Continuous Sensitivity Analysis (CSA) is described in Sec. 3 along with a short discussion. Section 4 describes the Discrete Sensitivity Analysis along with its pros and cons in comparison to CSA. Discussion on the existing packages, available benchmarks and future work make up Sec. 5.},
+  pdf = {https://sbel.wisc.edu/wp-content/uploads/sites/569/2023/10/main.pdf},
   year={2023}
 }
 
@@ -97,6 +118,8 @@
   author={Caldararu, Stefan and Zhang, Harry and {<u>Ishaan Mahajan </u>} and Hansen, Thomas and Chatterjee, Shouvik and Batagoda, Nevindu and Serban, Radu and Negrut, Dan},
   preview = {RandomWalkOurModel.png},
   journal={Simulation Based Engineering Lab},
+  abstract = {We propose a new GPS model that produces synthetic data that mimics more accurately real GPS data. An analysis of current GPS models is presented, and a new model based on Concentration Gradient Random Walks in the second derivative of the measurement is proposed. This model is implemented in the Chrono:: Sensor [1] module, and utilized in the ART/ATK [2] project to demonstrate its capabilities. In the future this model will be used in applications for mitigating the sim-to-real gap. Specifically, it will be used in a Kalman Filter application to measure performance between simulated and real state estimation, as well as an MPC formulation to drive through waypoints.},
+  pdf = {https://sbel.wisc.edu/wp-content/uploads/sites/569/2023/03/TR-2022-02.pdf},
   year={2023}
   
 }
@@ -106,6 +129,8 @@
   author={Elmquist, Asher and Young, Aaron and {<u>Ishaan Mahajan </u>} and Fahey, Kyle and Dashora, Abhiraj and Ashokkumar, Sriram and Caldararu, Stefan and Freire, Victor and Xu, Xiangru and Serban, Radu and others},
   journal = {IEEE/RSJ International Conference on Intelligent Robots and Systems},
   preview = {art_vehicle.jpg},
+  abstract = {We describe a software framework and a hardware platform used in tandem for the design and analysis of robot autonomy algorithms in simulation and reality. The software, which is open source, containerized, and operating system (OS) independent, has three main components: a ROS 2 interface to a C++ vehicle simulation framework (Chrono), which provides high-fidelity wheeled/tracked vehicle and sensor simulation; a basic ROS 2-based autonomy stack for algorithm design and testing; and, a development ecosystem which enables visualization, and hardware-in-the-loop experimentation in perception, state estimation, path planning, and controls. The accompanying hardware platform is a 1/6th scale vehicle augmented with reconfigurable mountings for computing, sensing, and tracking. Its purpose is to allow algorithms and sensor configurations to be physically tested and improved. Since this vehicle platform has a digital twin within the simulation environment, one can test and compare the same algorithms and autonomy stack in simulation and reality. This platform has been built with an eye towards characterizing and managing the simulation-to-reality gap. Herein, we describe how this platform is set up, deployed, and used to improve autonomy for mobility applications.},
+  arxiv = {2206.06537},
   year={2022}
 }
 
