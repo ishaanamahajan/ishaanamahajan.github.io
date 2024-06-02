@@ -5,6 +5,5 @@ title: cv
 nav: true
 nav_order: 3
 cv_pdf: Ishaan_CV_2024.pdf
-description: 
-
+description:
 ---
