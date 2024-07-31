@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a first-year master's student at Columbia University, passionate about robotics and autonomous systems. My research is focused on enhancing the speed and safety of autonomous systems while exploring the crucial aspects of perception, planning, and control.
+I am a first-year master's student at Columbia University, advised by [Professor Brian Plancher](https://brianplancher.com/). My research is focused on enhancing the speed and safety of autonomous systems while exploring the crucial aspects of perception, planning, and control.
 
 I completed my bachelor's degree at the University of Wisconsin-Madison, where I majored in Computer Science and Data Science. During my undergraduate studies, I worked under [Professor Dan Negrut](https://sbel.wisc.edu/negrut-dan/), where I mainly focussed on mitigating the Sim2Real gap for autonomous agents. I was also a part of [Wisconsin Autonomous](https://wa.wisc.edu/), where I worked as the AV Infrastructure Lead.
 
